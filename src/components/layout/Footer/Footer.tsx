@@ -113,12 +113,16 @@ const Footer: React.FC = () => {
               <div className={styles.column}>
                 <h4 className={styles.heading}>Contact</h4>
                 <p className={styles.text}>
-                  Head Office: Office 11, P3 Level, Azziano, Rustomjee Urbania,
-                  Majiwada, Thane (W), Maharashtra 400601
+                  <a className={styles.link} href="https://www.google.com/maps?cid=1064529831847870676" target="_blank" rel="noopener noreferrer">
+                    Head Office: Office 11, P3 Level, Azziano, Rustomjee Urbania,
+                    Majiwada, Thane (W), Maharashtra 400601
+                  </a>
                 </p>
                 <p className={styles.text}>
-                  Corporate Office: Office 11, P3 Level, Azziano, Rustomjee
-                  Urbania, Majiwada, Thane (W), Maharashtra 400601
+                  <a className={styles.link} href="https://www.google.com/maps?cid=17766265707126768076" target="_blank" rel="noopener noreferrer">
+                    Corporate Office: Elite&apos;s Hajra Mansion, 02, off Doctor
+                    Ansari Road, 2nd, Rabodi, Thane West, Thane, Maharashtra 400601
+                  </a>
                 </p>
                 <p className={styles.text}>info@crownsecuritysolutions.com</p>
                 <p className={styles.text}>+91 8108107824</p>
