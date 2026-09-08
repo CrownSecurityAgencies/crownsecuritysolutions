@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
   const socialLinks = [
     {
       label: "LinkedIn",
-      href: "https://in.linkedin.com/company/crown-security-solutions",
+      href: "https://www.linkedin.com/company/crownsecurity-agencies/",
     },
   ];
 
