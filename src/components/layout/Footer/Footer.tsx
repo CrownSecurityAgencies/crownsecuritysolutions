@@ -28,6 +28,14 @@ const Footer: React.FC = () => {
       label: "LinkedIn",
       href: "https://www.linkedin.com/company/crownsecurity-agencies/",
     },
+    {
+      label: "Instagram",
+      href: "https://www.instagram.com/crownsecurityagencies",
+    },
+    {
+      label: "Facebook",
+      href: "https://www.facebook.com/share/1ER1LcPvMA/?mibextid=wwXIfr",
+    },
   ];
 
   return (
@@ -65,12 +73,12 @@ const Footer: React.FC = () => {
                         )}
                         {item.label === "Instagram" && (
                           <svg viewBox="0 0 24 24" focusable="false">
-                            <path d="M12 7.2A4.8 4.8 0 1 0 16.8 12 4.81 4.81 0 0 0 12 7.2Zm0 7.9A3.1 3.1 0 1 1 15.1 12 3.11 3.11 0 0 1 12 15.1Zm6.1-7.93a1.12 1.12 0 1 1-1.12-1.12 1.12 1.12 0 0 1 1.12 1.12ZM20 3H4A3 3 0 0 0 1 6v12a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm1.3 15A1.7 1.7 0 0 1 19.6 19.7H4.4A1.7 1.7 0 0 1 2.7 18V7A1.7 1.7 0 0 1 4.4 5.3h15.2A1.7 1.7 0 0 1 21.3 7Z" />
+                            <rect x="3" y="3" width="18" height="18" rx="5.5" fill="none" stroke="currentColor" strokeWidth="2" /><circle cx="12" cy="12" r="4.25" fill="none" stroke="currentColor" strokeWidth="2" /><circle cx="17.5" cy="6.5" r="1.25" />
                           </svg>
                         )}
                         {item.label === "Facebook" && (
                           <svg viewBox="0 0 24 24" focusable="false">
-                            <path d="M13.5 9.33V7.5c0-.64.13-.97.95-.97h1.85V3.5H13.5c-2.1 0-3.5 1.31-3.5 3.82v2.01H7.8v3.17H10v8h3.5v-8h2.35l.35-3.17Z" />
+                            <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.025 4.388 11.02 10.125 11.927v-8.437H7.078v-3.49h3.047v-2.66c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.49 0-1.956.931-1.956 1.887v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.093 24 18.098 24 12.073z" />
                           </svg>
                         )}
                         {item.label === "X (Twitter)" && (
