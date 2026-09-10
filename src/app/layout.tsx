@@ -1,6 +1,7 @@
 import "@/styles/globals.scss";
 import Header from "@/components/layout/Header/Header";
 import Footer from "@/components/layout/Footer/Footer";
+import StickyContactCTA from "@/components/layout/StickyContactCTA/StickyContactCTA";
 
 // ============================================
 // ROOT LAYOUT - Enhanced with Metadata
@@ -93,6 +94,7 @@ export default function RootLayout({
 
         {/* Footer */}
         <Footer />
+        <StickyContactCTA />
       </body>
     </html>
   );

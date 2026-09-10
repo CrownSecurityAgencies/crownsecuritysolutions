@@ -117,3 +117,15 @@ img {
 .cfBody .grecaptcha-badge {
   visibility: hidden !important;
 }
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --sticky-contact-height: calc(52px + env(safe-area-inset-bottom));
+    scroll-padding-bottom: calc(var(--sticky-contact-height) + 16px);
+  }
+
+  body {
+    // Keep the final footer content reachable above the fixed mobile CTA.
+    padding-bottom: var(--sticky-contact-height);
+  }
+}
