@@ -1,0 +1,60 @@
+.cta {
+  position: fixed;
+  z-index: 40;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  min-width: 48px;
+  padding: 24px 12px;
+  border: 2px solid #d39e29;
+  border-radius: 4px 0 0 4px;
+  background: #050505;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 160ms ease, color 160ms ease;
+
+  @media (hover: hover) {
+    &:hover {
+      background: #d39e29;
+      color: #050505;
+    }
+  }
+
+  &:focus-visible {
+    background: #d39e29;
+    color: #050505;
+    outline: 2px solid #ffffff;
+    outline-offset: -6px;
+  }
+
+  @media (max-width: 1024px) {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    writing-mode: horizontal-tb;
+    min-height: var(--sticky-contact-height);
+    padding: 14px max(20px, env(safe-area-inset-right))
+      calc(14px + env(safe-area-inset-bottom))
+      max(20px, env(safe-area-inset-left));
+    border-radius: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
