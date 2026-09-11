@@ -1,4 +1,5 @@
 export const logos = [
+  { id: 85, name: "MITS", src: "/images/brand-logos/mits.svg", alt: "MITS", href: "#" },
   {
     id: 1,
     name: "Logo 1",
@@ -293,6 +294,7 @@ export const logos = [
     alt: "Logo 42",
     href: "#",
   },
+  { id: 86, name: "MITS", src: "/images/brand-logos/mits.svg", alt: "MITS", href: "#" },
   {
     id: 43,
     name: "Logo 1",
