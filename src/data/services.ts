@@ -40,7 +40,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/Corporate Park Security Services.webp",
+        src: "/images/services/updated/service-01.jpg",
         alt: "Corporate Park Security Services",
       },
       content: {
@@ -259,7 +259,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/escort_service.webp",
+        src: "/images/services/updated/service-05.jpg",
         alt: "Security Convoy Services",
       },
       content: {
@@ -468,7 +468,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/services/Hospitality Services/hospital_hero_image.webp",
+        src: "/images/services/updated/service-07.jpg",
         alt: "Hospitality Services",
       },
       content: {
@@ -683,7 +683,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/industrial_security.webp",
+        src: "/images/services/updated/service-02.jpg",
         alt: "Industrial Security",
       },
       content: {
@@ -896,7 +896,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/logistic_security.webp",
+        src: "/images/services/updated/service-03.jpg",
         alt: "Logistics Security",
       },
       content: {
@@ -1109,7 +1109,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/mall_security.webp",
+        src: "/images/services/updated/service-10.jpg",
         alt: "Mall Security",
       },
       content: {
@@ -1323,7 +1323,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/services/High-End Residential Security/rs1.webp",
+        src: "/images/services/updated/service-08.jpg",
         alt: "High-End Residential Security",
       },
       content: {
@@ -1537,7 +1537,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/school_security_1.webp",
+        src: "/images/services/updated/service-04.jpg",
         alt: "School Security",
       },
       content: {
@@ -1751,7 +1751,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/event_security.webp",
+        src: "/images/services/updated/service-11.jpg",
         alt: "Event Security",
       },
       content: {
@@ -1964,7 +1964,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/security_convoy_service.webp",
+        src: "/images/services/updated/service-06.jpg",
         alt: "Security Convoy Services",
       },
       content: {
@@ -2177,7 +2177,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/vip_protection.webp",
+        src: "/images/services/updated/service-09.jpg",
         alt: "VIP Protection / Personal Escort Security",
       },
       content: {
@@ -2396,7 +2396,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/CCTV_Monitoring.webp",
+        src: "/images/services/updated/service-12.jpg",
         alt: "CCTV Monitoring & Alarm Response Services",
       },
       content: {
@@ -2609,7 +2609,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/access_control.webp",
+        src: "/images/services/updated/service-13.jpg",
         alt: "Access Control Management",
       },
       content: {
@@ -2823,7 +2823,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/fire_safety_new.webp",
+        src: "/images/services/updated/service-14.jpg",
         alt: "Fire Safety & Emergency Drill Support",
       },
       content: {
@@ -3039,7 +3039,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/gate_pass.webp",
+        src: "/images/services/updated/service-15.jpg",
         alt: "Gate-Pass and Vehicle Movement Verification (Logistics/Industrial)",
       },
       content: {
@@ -3259,7 +3259,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/cargo.webp",
+        src: "/images/services/updated/service-16.jpg",
         alt: "Cargo Integrity Audits (Logistics Security)",
       },
       content: {
@@ -3480,7 +3480,7 @@ export const services: ServiceData[] = [
     heroData: {
       media: {
         type: "image",
-        src: "/images/home/services/perimeter.webp",
+        src: "/images/services/updated/service-17.jpg",
         alt: "Perimeter Patrolling & PPE Compliance (Industrial Security)",
       },
       content: {

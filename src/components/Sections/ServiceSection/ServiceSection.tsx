@@ -9,10 +9,11 @@ interface ServiceSectionProps {
   variant?: 'left' | 'right';
   service?: ServiceData;
   showScopeTitle?: boolean;
+  showFullImage?: boolean;
   frameIndex?: number; // New prop for frame overlay (0-3 for frame-1 to frame-4)
 }
 
-const ServiceSection: React.FC<ServiceSectionProps> = ({ variant = 'left', service, showScopeTitle = true, frameIndex }) => {
+const ServiceSection: React.FC<ServiceSectionProps> = ({ variant = 'left', service, showScopeTitle = true, showFullImage = false, frameIndex }) => {
   const isLeft = variant === 'left';
 
   // Fallback to first service if no service prop provided
@@ -40,7 +41,7 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({ variant = 'left', servi
       <div className="pageLayout">
         <div className="full-width-container">
           <div className={styles.container}>
-            <div className={styles.imageWrapper}>
+            <div className={`${styles.imageWrapper} ${showFullImage ? styles.fullImage : ""}`}>
               <Image
                 src={currentService.image}
                 alt={currentService.title}
@@ -49,7 +50,7 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({ variant = 'left', servi
                 className={styles.image}
                 priority
               />
-              {frameImage && (
+              {frameImage && !showFullImage && (
                 <div className={styles.frameOverlay}>
                   <Image
                     src={frameImage}
