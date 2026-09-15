@@ -49,6 +49,7 @@ export default function ServicesPage() {
                         variant={index % 2 === 1 ? 'right' : undefined} 
                         service={service}
                         showScopeTitle={true}
+                        showFullImage
                         frameIndex={index}
                     />
                 ))}

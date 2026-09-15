@@ -144,3 +144,17 @@
     }
   }
 }
+
+.fullImage {
+  height: auto;
+  min-height: 0;
+  align-self: center;
+  overflow: hidden;
+  border-radius: 12px;
+
+  .image {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+  }
+}
