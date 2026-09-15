@@ -5,28 +5,28 @@ import styles from '@/styles/legal-page.module.scss';
 export const revalidate = 86400;
 
 export const metadata = {
-  title: "Terms and Conditions | Crown Security Solutions",
-  description: "Read the terms and conditions governing the use of Crown Security Solutions' website, services, and legal policies.",
+  title: "Terms and Conditions | Crown Security Agencies",
+  description: "Read the terms and conditions governing the use of Crown Security Agencies' website, services, and legal policies.",
   keywords: ["terms and conditions", "legal policies", "security services terms", "website terms", "service agreements"],
   alternates: {
     canonical: "/terms-and-conditions",
   },
   openGraph: {
-    title: "Terms and Conditions | Crown Security Solutions",
-    description: "Read the terms and conditions governing the use of Crown Security Solutions' website, services, and legal policies.",
+    title: "Terms and Conditions | Crown Security Agencies",
+    description: "Read the terms and conditions governing the use of Crown Security Agencies' website, services, and legal policies.",
     url: "/terms-and-conditions",
     images: [
       {
         url: "/images/home/home-hero-bg.webp",
         width: 1200,
         height: 630,
-        alt: "Terms and Conditions - Crown Security Solutions",
+        alt: "Terms and Conditions - Crown Security Agencies",
       },
     ],
   },
   twitter: {
-    title: "Terms and Conditions | Crown Security Solutions",
-    description: "Read the terms and conditions governing the use of Crown Security Solutions' website, services, and legal policies.",
+    title: "Terms and Conditions | Crown Security Agencies",
+    description: "Read the terms and conditions governing the use of Crown Security Agencies' website, services, and legal policies.",
     images: ["/images/home/home-hero-bg.webp"],
   },
   robots: {
@@ -44,7 +44,7 @@ export default function TermsAndConditionsPage() {
           <p className={styles.updated}>Last updated: January 28, 2026</p>
           <p className={styles.text}>
             These Terms & Conditions govern your access to and use of Crown Security
-            Solutions services, website, and communications. By engaging our services
+            Agencies services, website, and communications. By engaging our services
             or using this website, you agree to these terms.
           </p>
         </div>
@@ -90,7 +90,7 @@ export default function TermsAndConditionsPage() {
           <h2 className={styles.heading}>Intellectual Property</h2>
           <p className={styles.text}>
             All content on this website, including trademarks, logos, and written
-            materials, remains the property of Crown Security Solutions unless
+            materials, remains the property of Crown Security Agencies unless
             otherwise stated.
           </p>
         </div>
@@ -98,7 +98,7 @@ export default function TermsAndConditionsPage() {
         <div className={styles.section}>
           <h2 className={styles.heading}>Limitation of Liability</h2>
           <p className={styles.text}>
-            To the extent permitted by law, Crown Security Solutions is not liable
+            To the extent permitted by law, Crown Security Agencies is not liable
             for indirect, incidental, or consequential damages. Our total liability
             is limited to the fees paid for the applicable services.
           </p>

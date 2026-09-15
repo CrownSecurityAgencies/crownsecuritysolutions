@@ -4,7 +4,7 @@ export const JsonLd: React.FC = () => {
   const jsonLdData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Crown Security Solutions",
+    "name": "Crown Security Agencies",
     "image": "/images/logo.png",
     "@id": "https://crownsecuritysolutions.com",
     "url": "https://crownsecuritysolutions.com",

@@ -5,28 +5,28 @@ import styles from '@/styles/legal-page.module.scss';
 export const revalidate = 86400;
 
 export const metadata = {
-  title: "Privacy Policy | Crown Security Solutions",
-  description: "Review Crown Security Solutions' privacy policy to understand how we collect, use, and protect your personal information.",
+  title: "Privacy Policy | Crown Security Agencies",
+  description: "Review Crown Security Agencies' privacy policy to understand how we collect, use, and protect your personal information.",
   keywords: ["privacy policy", "data protection", "personal information", "privacy terms", "data security", "information protection"],
   alternates: {
     canonical: "/privacy-policy",
   },
   openGraph: {
-    title: "Privacy Policy | Crown Security Solutions",
-    description: "Review Crown Security Solutions' privacy policy to understand how we collect, use, and protect your personal information.",
+    title: "Privacy Policy | Crown Security Agencies",
+    description: "Review Crown Security Agencies' privacy policy to understand how we collect, use, and protect your personal information.",
     url: "/privacy-policy",
     images: [
       {
         url: "/images/home/home-hero-bg.webp",
         width: 1200,
         height: 630,
-        alt: "Privacy Policy - Crown Security Solutions",
+        alt: "Privacy Policy - Crown Security Agencies",
       },
     ],
   },
   twitter: {
-    title: "Privacy Policy | Crown Security Solutions",
-    description: "Review Crown Security Solutions' privacy policy to understand how we collect, use, and protect your personal information.",
+    title: "Privacy Policy | Crown Security Agencies",
+    description: "Review Crown Security Agencies' privacy policy to understand how we collect, use, and protect your personal information.",
     images: ["/images/home/home-hero-bg.webp"],
   },
   robots: {
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
           <h1 className={styles.title}>Privacy Policy</h1>
           <p className={styles.updated}>Last updated: January 28, 2026</p>
           <p className={styles.text}>
-            This Privacy Policy explains how Crown Security Solutions collects,
+            This Privacy Policy explains how Crown Security Agencies collects,
             uses, and safeguards your information when you use our website or
             contact us about our services.
           </p>

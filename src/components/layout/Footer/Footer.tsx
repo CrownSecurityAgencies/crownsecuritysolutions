@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               <div className={styles.brand}>
                 <Image
                   src="/logo_black.png"
-                  alt="Crown Security Managers"
+                  alt="Crown Security Agencies"
                   width={171}
                   height={40}
                 />
@@ -159,7 +159,7 @@ const Footer: React.FC = () => {
         <div className={styles.bottom}>
           <div className="full-width-container">
             <p className={styles.bottomText}>
-              Copyright {new Date().getFullYear()} Crown Security Solutions. All
+              Copyright {new Date().getFullYear()} Crown Security Agencies. All
               rights reserved.
             </p>
           </div>

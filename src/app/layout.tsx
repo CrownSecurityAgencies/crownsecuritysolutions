@@ -9,8 +9,8 @@ import StickyContactCTA from "@/components/layout/StickyContactCTA/StickyContact
 
 export const metadata = {
   title: {
-    default: "Crown Security Solutions | Professional Security Services in India",
-    template: "%s | Crown Security Solutions"
+    default: "Crown Security Agencies | Professional Security Services in India",
+    template: "%s | Crown Security Agencies"
   },
   icons: {
     icon: [
@@ -21,11 +21,11 @@ export const metadata = {
       { url: '/images/css_logo.svg', type: 'image/svg+xml' },
     ],
   },
-  description: "Crown Security Solutions provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
+  description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
   keywords: ["security services", "corporate security", "industrial security", "residential security", "event security", "security solutions India"],
-  authors: [{ name: "Crown Security Solutions" }],
-  creator: "Crown Security Solutions",
-  publisher: "Crown Security Solutions",
+  authors: [{ name: "Crown Security Agencies" }],
+  creator: "Crown Security Agencies",
+  publisher: "Crown Security Agencies",
   formatDetection: {
     email: false,
     address: false,
@@ -39,22 +39,22 @@ export const metadata = {
     type: "website",
     locale: "en_IN",
     url: "/",
-    title: "Crown Security Solutions | Professional Security Services in India",
-    description: "Crown Security Solutions provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
-    siteName: "Crown Security Solutions",
+    title: "Crown Security Agencies | Professional Security Services in India",
+    description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
+    siteName: "Crown Security Agencies",
     images: [
       {
         url: "/images/home/home-hero-bg.webp",
         width: 1200,
         height: 630,
-        alt: "Crown Security Solutions - Professional Security Services",
+        alt: "Crown Security Agencies - Professional Security Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Crown Security Solutions | Professional Security Services in India",
-    description: "Crown Security Solutions provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
+    title: "Crown Security Agencies | Professional Security Services in India",
+    description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
     images: ["/images/home/home-hero-bg.webp"],
     creator: "@crownsecurity",
   },

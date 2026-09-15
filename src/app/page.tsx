@@ -19,28 +19,28 @@ import EndCta from '@/components/Sections/EndCta/EndCta';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "Crown Security Solutions | Professional Security Services in India",
-  description: "Crown Security Solutions provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
+  title: "Crown Security Agencies | Professional Security Services in India",
+  description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
   keywords: ["security services", "corporate security", "industrial security", "residential security", "event security", "security solutions India", "professional security services"],
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Crown Security Solutions | Professional Security Services in India",
-    description: "Crown Security Solutions provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
+    title: "Crown Security Agencies | Professional Security Services in India",
+    description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
     url: "/",
     images: [
       {
         url: "/images/home/home-hero-bg.webp",
         width: 1200,
         height: 630,
-        alt: "Crown Security Solutions - Professional Security Services",
+        alt: "Crown Security Agencies - Professional Security Services",
       },
     ],
   },
   twitter: {
-    title: "Crown Security Solutions | Professional Security Services in India",
-    description: "Crown Security Solutions provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
+    title: "Crown Security Agencies | Professional Security Services in India",
+    description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
     images: ["/images/home/home-hero-bg.webp"],
   },
   robots: {

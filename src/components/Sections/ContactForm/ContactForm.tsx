@@ -42,8 +42,7 @@ const ContactForm: React.FC = () => {
   };
 
   const validateContactNumber = (number: string): boolean => {
-    const numberRegex = /^[+]?[\d\s\-\(\)]{10,}$/;
-    return numberRegex.test(number);
+    return /^[+]?\d[\d\s()\-]*$/.test(number.trim()) && number.replace(/\D/g, '').length >= 10 && number.replace(/\D/g, '').length <= 15;
   };
 
   const validateForm = (): boolean => {
@@ -131,9 +130,6 @@ const ContactForm: React.FC = () => {
     }
   };
 
-  const handleButtonSubmit = () => {
-    handleSubmit();
-  };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -172,61 +168,77 @@ const ContactForm: React.FC = () => {
       <div className={styles.formHeader}>
         <h3 className={styles.formTitle}>Talk to an expert</h3>
       </div>
-      <form className={styles.form} onSubmit={handleSubmit}>
+      <form className={styles.form} onSubmit={handleSubmit} noValidate>
         <div className={styles.field}>
+          <label htmlFor="contact-name" className={styles.label}>Name *</label>
           <input
             type="text"
             name="name"
+            id="contact-name"
+            aria-invalid={Boolean(errors.name)}
+            aria-describedby={errors.name ? 'contact-name-error' : undefined}
             placeholder="Name*"
-            aria-label="Name"
+
             value={formData.name}
             onChange={handleInputChange}
             className={`${styles.input} ${errors.name ? styles.error : ''}`}
             required
           />
-          {errors.name && <span className={styles.errorMessage}>{errors.name}</span>}
+          {errors.name && <span id="contact-name-error" className={styles.errorMessage}>{errors.name}</span>}
         </div>
 
         <div className={styles.field}>
+          <label htmlFor="contact-email" className={styles.label}>Email address *</label>
           <input
             type="email"
             name="email"
+            id="contact-email"
+            aria-invalid={Boolean(errors.email)}
+            aria-describedby={errors.email ? 'contact-email-error' : undefined}
             placeholder="Email ID*"
-            aria-label="Email ID"
+
             value={formData.email}
             onChange={handleInputChange}
             className={`${styles.input} ${errors.email ? styles.error : ''}`}
             required
           />
-          {errors.email && <span className={styles.errorMessage}>{errors.email}</span>}
+          {errors.email && <span id="contact-email-error" className={styles.errorMessage}>{errors.email}</span>}
         </div>
 
         <div className={styles.field}>
+          <label htmlFor="contact-contactNumber" className={styles.label}>Contact number *</label>
           <input
             type="tel"
             name="contactNumber"
+            id="contact-contactNumber"
+            aria-invalid={Boolean(errors.contactNumber)}
+            aria-describedby={errors.contactNumber ? 'contact-contactNumber-error' : undefined}
             placeholder="Contact Number*"
-            aria-label="Contact Number"
+
             value={formData.contactNumber}
             onChange={handleInputChange}
             className={`${styles.input} ${errors.contactNumber ? styles.error : ''}`}
             required
           />
-          {errors.contactNumber && <span className={styles.errorMessage}>{errors.contactNumber}</span>}
+          {errors.contactNumber && <span id="contact-contactNumber-error" className={styles.errorMessage}>{errors.contactNumber}</span>}
         </div>
 
         <div className={styles.field}>
+          <label htmlFor="contact-service" className={styles.label}>Service required *</label>
           <div className={styles.selectWrapper}>
             <select
               name="service"
-              aria-label="Services Interested In"
+            id="contact-service"
+            aria-invalid={Boolean(errors.service)}
+            aria-describedby={errors.service ? 'contact-service-error' : undefined}
+
               value={formData.service}
               onChange={handleServiceChange}
               className={`${styles.select} ${errors.service ? styles.error : ''}`}
               required
             >
               <option value="" disabled>
-                Services Interested In*
+                Select a service
               </option>
               {services.map((service) => (
                 <option key={service.slug} value={service.slug}>
@@ -247,21 +259,25 @@ const ContactForm: React.FC = () => {
               </svg>
             </span>
           </div>
-          {errors.service && <span className={styles.errorMessage}>{errors.service}</span>}
+          {errors.service && <span id="contact-service-error" className={styles.errorMessage}>{errors.service}</span>}
         </div>
 
         <div className={styles.field}>
+          <label htmlFor="contact-message" className={styles.label}>Message *</label>
           <textarea
             name="message"
+            id="contact-message"
+            aria-invalid={Boolean(errors.message)}
+            aria-describedby={errors.message ? 'contact-message-error' : undefined}
             placeholder="Message*"
-            aria-label="Message"
+
             value={formData.message}
             onChange={handleInputChange}
             className={`${styles.textarea} ${errors.message ? styles.error : ''}`}
             rows={4}
             required
           />
-          {errors.message && <span className={styles.errorMessage}>{errors.message}</span>}
+          {errors.message && <span id="contact-message-error" className={styles.errorMessage}>{errors.message}</span>}
         </div>
 
         <div className={styles.submitRow}>
@@ -271,7 +287,7 @@ const ContactForm: React.FC = () => {
             className={styles.submitButton}
             textColor="#f6292f"
             iconBgColor="#f6292f"
-            onClick={handleButtonSubmit}
+
           />
         </div>
       </form>

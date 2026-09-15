@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         <Link href="/" className={styles.logo}>
           <Image
             src="/logo.png"
-            alt="Crown Security Managers"
+            alt="Crown Security Agencies"
             width={171}
             height={40}
             priority
