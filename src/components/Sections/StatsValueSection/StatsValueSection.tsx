@@ -10,10 +10,10 @@ const StatsValueSection: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
   const statistics = [
-    { number: '25+', label: 'Years of Experience', target: 25 },
+    { number: '1997', label: 'Established', target: 1997 },
     { number: '25000CR+', label: 'Secured', target: 25000 },
     { number: '100+', label: 'Happy Clients', target: 100 },
-    { number: '2000+', label: 'Security Personnels', target: 2000 },
+    { number: '2000+', label: 'Security Personnel', target: 2000 },
     { number: '200+', label: 'Operational Sites', target: 200 },
   ];
 
@@ -81,7 +81,7 @@ const StatsValueSection: React.FC = () => {
           {/* Header */}
           <SectionHeader
             label="Our track record"
-            title="High-performing people across the continent"
+            title="High-performing people across India"
             highlightedWords={["people"]}
           />
 
@@ -92,7 +92,7 @@ const StatsValueSection: React.FC = () => {
                 <div key={index} className={styles.statCard}>
                   <div className={styles.statContent}>
                     <span className={styles.statNumber}>
-                      {hasAnimated ? formatNumber(counters[index], stat.number) : '0'}
+                      {index === 0 ? stat.number : hasAnimated ? formatNumber(counters[index], stat.number) : stat.number}
                     </span>
                     <span className={styles.statLabel}>{stat.label}</span>
                   </div>

@@ -16,7 +16,7 @@ export const metadata = {
   },
   openGraph: {
     title: "Security Services | Corporate, Industrial & Residential",
-    description: "Explore Crown Security Solutions' full range of security services, including corporate, industrial, residential, logistics, and event security.",
+    description: "Explore Crown Security Agencies' full range of security services, including corporate, industrial, residential, logistics, and event security.",
     url: "/services",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata = {
   },
   twitter: {
     title: "Security Services | Corporate, Industrial & Residential",
-    description: "Explore Crown Security Solutions' full range of security services, including corporate, industrial, residential, logistics, and event security.",
+    description: "Explore Crown Security Agencies' full range of security services, including corporate, industrial, residential, logistics, and event security.",
     images: ["/images/services/Corporate Park Security Services/1.webp"],
   },
   robots: {

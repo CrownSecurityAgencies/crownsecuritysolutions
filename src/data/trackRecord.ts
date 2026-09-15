@@ -25,8 +25,8 @@ export const TIMELINE_DATA: TimelineItem[] = [
   {
     id: '3',
     year: '1997',
-    title: 'Crown Security Agency Established',
-    description: 'Crown Security Agency was founded on 1st August 1997 in Thane, Maharashtra. First projects included Larsen and Toubro infrastructure projects - Shirdi Sai Baba Mandir and Dabhol Power Plant (Chiplun).',
+    title: 'Crown Security Agencies Established',
+    description: 'Crown Security Agencies was founded on 1st August 1997 in Thane, Maharashtra. First projects included Larsen and Toubro infrastructure projects - Shirdi Sai Baba Mandir and Dabhol Power Plant (Chiplun).',
     highlightColor: '#d4af37'
   },
   {
@@ -75,21 +75,21 @@ export const TIMELINE_DATA: TimelineItem[] = [
     id: '10',
     year: '2004',
     title: 'Spare Parts Division Security',
-    description: 'Secured JCB Spear part Division and TVS Lucas Spear part Division contracts through TVS Logistics.',
+    description: 'Secured JCB Spare Parts Division and TVS Lucas Spare Parts Division contracts through TVS Logistics.',
     highlightColor: '#d4af37'
   },
   {
     id: '11',
     year: '2005',
     title: 'Tata Motors Partnership',
-    description: 'Awarded TML CVBU Spear part Division and TML PCBU Spear part Division contracts through TVS Logistics.',
+    description: 'Awarded TML CVBU Spare Parts Division and TML PCBU Spare Parts Division contracts through TVS Logistics.',
     highlightColor: '#d4af37'
   },
   {
     id: '12',
     year: '2006',
     title: 'Premium Brand Security',
-    description: 'Secured Mercedes-Benz India Spear part Division and SKF Spear part Division contracts through TVS Logistics.',
+    description: 'Secured Mercedes-Benz India Spare Parts Division and SKF Spare Parts Division contracts through TVS Logistics.',
     highlightColor: '#d4af37'
   },
   {
@@ -103,7 +103,7 @@ export const TIMELINE_DATA: TimelineItem[] = [
     id: '14',
     year: '2008',
     title: 'Automotive & Education Sector',
-    description: 'Secured AMW Motor Ltd. Spear part Division through TVS Logistics and Shree Balaji Society Education Trust.',
+    description: 'Secured AMW Motor Ltd. Spare Parts Division through TVS Logistics and Shree Balaji Society Education Trust.',
     highlightColor: '#d4af37'
   },
   {

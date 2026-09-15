@@ -10,7 +10,7 @@ export const homepageHero: HeroSectionProps = {
   content: {
     title: "Your Security. Our Priority.",
     description:
-      "For almost 30 years now, Crown Security Agency (CSA) has been India’s trusted security partner, combining disciplined manpower, ethical governance, and technology-driven systems to safeguard people, property, and peace of mind across 7 states.",
+      "For almost 30 years now, Crown Security Agencies (CSA) has been India’s trusted security partner, combining disciplined manpower, ethical governance, and technology-driven systems to safeguard people, property, and peace of mind across 7 states.",
     buttons: [
       {
         text: "LEARN HOW",

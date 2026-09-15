@@ -18,7 +18,7 @@ const MapSection: React.FC = () => {
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Crown Security Solutions Thane Office"
+              title="Crown Security Agencies Thane Office"
             />
           </div>
         </div>
@@ -32,7 +32,7 @@ const MapSection: React.FC = () => {
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Crown Security Solutions Thane West Office"
+              title="Crown Security Agencies Thane West Office"
             />
           </div>
         </div>

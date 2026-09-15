@@ -31,7 +31,7 @@ export interface TeamMember {
 }
 
 /**
- * Core team data for Crown Securities
+ * Core team data for Crown Security Agencies
  */
 export const coreTeamData: TeamMember[] = [
   {

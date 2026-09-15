@@ -10,28 +10,28 @@ import styles from './page.module.scss';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "Our Security Process | How Crown Security Solutions Works",
-  description: "Discover Crown Security Solutions' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
+  title: "Our Security Process | How Crown Security Agencies Works",
+  description: "Discover Crown Security Agencies' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
   keywords: ["security process", "security services", "risk assessment", "security deployment", "security compliance", "professional security"],
   alternates: {
     canonical: "/our-process",
   },
   openGraph: {
-    title: "Our Security Process | How Crown Security Solutions Works",
-    description: "Discover Crown Security Solutions' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
+    title: "Our Security Process | How Crown Security Agencies Works",
+    description: "Discover Crown Security Agencies' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
     url: "/our-process",
     images: [
       {
         url: "/images/our-process-hero-bg.webp",
         width: 1200,
         height: 630,
-        alt: "Our Security Process - How Crown Security Solutions Works",
+        alt: "Our Security Process - How Crown Security Agencies Works",
       },
     ],
   },
   twitter: {
-    title: "Our Security Process | How Crown Security Solutions Works",
-    description: "Discover Crown Security Solutions' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
+    title: "Our Security Process | How Crown Security Agencies Works",
+    description: "Discover Crown Security Agencies' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
     images: ["/images/our-process-hero-bg.webp"],
   },
   robots: {

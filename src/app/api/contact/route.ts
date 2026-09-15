@@ -11,7 +11,19 @@ interface ContactFormData {
 
 export async function POST(request: NextRequest) {
   try {
-    const body: ContactFormData = await request.json();
+    let input: unknown;
+    try { input = await request.json(); } catch {
+      return NextResponse.json({ error: 'Invalid request body' }, { status: 400 });
+    }
+    if (!input || typeof input !== 'object' || Array.isArray(input)) {
+      return NextResponse.json({ error: 'All fields are required' }, { status: 400 });
+    }
+    const values = input as Record<string, unknown>;
+    const fields = ['name', 'email', 'contactNumber', 'service', 'message'] as const;
+    if (fields.some(key => typeof values[key] !== 'string' || !(values[key] as string).trim())) {
+      return NextResponse.json({ error: 'All fields are required' }, { status: 400 });
+    }
+    const body = Object.fromEntries(fields.map(key => [key, (values[key] as string).trim()])) as unknown as ContactFormData;
 
     // Validate required fields
     if (!body.name || !body.email || !body.contactNumber || !body.service || !body.message) {
@@ -32,7 +44,7 @@ export async function POST(request: NextRequest) {
 
     // Validate contact number
     const numberRegex = /^[+]?[\d\s\-\(\)]{10,}$/;
-    if (!numberRegex.test(body.contactNumber)) {
+    if (!numberRegex.test(body.contactNumber) || body.contactNumber.replace(/\D/g, '').length < 10 || body.contactNumber.replace(/\D/g, '').length > 15) {
       return NextResponse.json(
         { error: 'Invalid contact number format' },
         { status: 400 }
@@ -83,10 +95,10 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Error processing contact form:', error);
     
-    // Return success even if Google Sheets fails, as a fallback
+    // Never acknowledge an enquiry that was not saved.
     return NextResponse.json(
-      { message: 'Contact form submitted successfully (data saved locally)' },
-      { status: 200 }
+      { error: 'We could not save your enquiry. Please try again or contact us by phone or email.' },
+      { status: 503 }
     );
   }
 }

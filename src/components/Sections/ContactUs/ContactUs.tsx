@@ -18,7 +18,7 @@ const ContactUs: React.FC = () => {
                                     </h2>
                                 </div>
                                 <p className={styles.subtitle}>
-                                    Crown Security Agency maintains an extensive operational network to ensure quick accessibility and client support wherever your business or property may be located.
+                                    Crown Security Agencies maintains an extensive operational network to ensure quick accessibility and client support wherever your business or property may be located.
                                 </p>
                             </div>
                             <div className={styles.imageWrapper}>

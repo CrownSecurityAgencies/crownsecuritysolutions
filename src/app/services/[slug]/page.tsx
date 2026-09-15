@@ -23,13 +23,13 @@ export const revalidate = 3600;
 // Service metadata mapping for all 17 services
 const serviceMetadata = {
   'corporate-park-security': {
-    title: "Corporate Park Security Services | Crown Security Solutions",
+    title: "Corporate Park Security Services | Crown Security Agencies",
     description: "Crown's Corporate Park Security solutions are designed to protect large office complexes while maintaining a professional and welcoming environment. Our trained personnel manage access points, visitor verification, vehicle checks, and CCTV surveillance with precision and discretion.",
     canonical: "/services/corporate-park-security",
     keywords: ["corporate park security", "office security", "business park security", "corporate security services", "professional security"],
   },
   'escort-services': {
-    title: "Professional Escort Security Services | Crown Security Solutions",
+    title: "Professional Escort Security Services | Crown Security Agencies",
     description: "Crown provides professional escort services for secure transportation of valuables, personnel, and high-risk cargo. Our trained escorts ensure safe transit with real-time monitoring and emergency response capabilities.",
     canonical: "/services/escort-services",
     keywords: ["escort security", "security escort", "valuable transportation", "high-risk cargo", "professional security services"],
@@ -53,7 +53,7 @@ const serviceMetadata = {
     keywords: ["logistics security", "cargo security", "supply chain security", "transportation security", "cargo protection"],
   },
   'mall-security': {
-    title: "Mall & Retail Security Services | Crown Security Solutions",
+    title: "Mall & Retail Security Services | Crown Security Agencies",
     description: "Professional mall security services ensure crowd control, theft prevention, surveillance, and a safe shopping environment for customers.",
     canonical: "/services/mall-security",
     keywords: ["mall security", "retail security", "shopping mall security", "crowd control", "theft prevention"],
@@ -136,7 +136,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
   // Get metadata for this specific service
   const metadata = serviceMetadata[slug as keyof typeof serviceMetadata] || {
-    title: `${service.title} | Crown Security Solutions`,
+    title: `${service.title} | Crown Security Agencies`,
     description: service.description,
     canonical: `/services/${slug}`,
     keywords: ["security services", "professional security", "security solutions"],
@@ -188,13 +188,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!service) {
     return {
-      title: "Service Not Found | Crown Security Solutions",
+      title: "Service Not Found | Crown Security Agencies",
       description: "The requested service page was not found.",
     };
   }
 
   const metadata = serviceMetadata[slug as keyof typeof serviceMetadata] || {
-    title: `${service.title} | Crown Security Solutions`,
+    title: `${service.title} | Crown Security Agencies`,
     description: service.description,
     canonical: `/services/${slug}`,
     keywords: ["security services", "professional security", "security solutions"],

@@ -15,7 +15,7 @@ const SpecializedServicesSection: React.FC = () => {
             {/* Header */}
             <SectionHeader
               label=""
-              title="A comprehensive service offering\nfrom Crown Securities"
+              title="A comprehensive service offering\nfrom Crown Security Agencies"
               highlightedWords={["A comprehensive service offering"]}
             />
           </div>

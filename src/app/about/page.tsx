@@ -21,28 +21,28 @@ import styles from './page.module.scss';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "About Crown Security Solutions | Trusted Security Experts",
-  description: "Learn about Crown Security Solutions, our experience, values, and commitment to delivering professional and dependable security services.",
+  title: "About Crown Security Agencies | Trusted Security Experts",
+  description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
   keywords: ["about us", "security company", "security experts", "security services", "professional security", "security solutions"],
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Crown Security Solutions | Trusted Security Experts",
-    description: "Learn about Crown Security Solutions, our experience, values, and commitment to delivering professional and dependable security services.",
+    title: "About Crown Security Agencies | Trusted Security Experts",
+    description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
     url: "/about",
     images: [
       {
         url: "/images/about/about-hero-bg.webp",
         width: 1200,
         height: 630,
-        alt: "About Crown Security Solutions - Trusted Security Experts",
+        alt: "About Crown Security Agencies - Trusted Security Experts",
       },
     ],
   },
   twitter: {
-    title: "About Crown Security Solutions | Trusted Security Experts",
-    description: "Learn about Crown Security Solutions, our experience, values, and commitment to delivering professional and dependable security services.",
+    title: "About Crown Security Agencies | Trusted Security Experts",
+    description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
     images: ["/images/about/about-hero-bg.webp"],
   },
   robots: {

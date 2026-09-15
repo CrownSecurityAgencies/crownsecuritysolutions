@@ -63,7 +63,7 @@ export interface CoreValuesProps {
 }
 
 /**
- * Core values data for Crown Securities
+ * Core values data for Crown Security Agencies
  */
 export const coreValuesData: CoreValue[] = [
   {
@@ -107,7 +107,7 @@ export const coreValuesData: CoreValue[] = [
  * Company information
  */
 export const companyInfo = {
-  name: "Crown Securities",
+  name: "Crown Security Agencies",
   sectionHeading: "Core Values",
 };
 

@@ -46,7 +46,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Corporate Park Security Services",
         description:
-          "Security in a corporate environment is never routine. It requires a strategic balance of vigilance, hospitality, process discipline, and technology. Crown Security Agency provides tailored Corporate Park Security Services designed to protect people, property, and day-to-day operations with complete professionalism and reliability.\nWith nearly three decades of experience, CSA delivers a structured, compliance driven security framework that supports business continuity and creates a safe and welcoming atmosphere for employees, clients, and visitors.",
+          "Security in a corporate environment is never routine. It requires a strategic balance of vigilance, hospitality, process discipline, and technology. Crown Security Agencies provides tailored Corporate Park Security Services designed to protect people, property, and day-to-day operations with complete professionalism and reliability.\nWith nearly three decades of experience, CSA delivers a structured, compliance driven security framework that supports business continuity and creates a safe and welcoming atmosphere for employees, clients, and visitors.",
       },
       overlay: {
         enabled: true,
@@ -124,7 +124,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Organizations prefer CSA because of our commitment to transparency, discipline, and operational excellence.",
         scopeOfWork: [
@@ -265,7 +265,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Escort Services",
         description:
-          "Safe movement of people and high value assets requires meticulous planning, trained personnel, and total accountability. Crown Security Agency provides professional Escort Services designed to protect individuals, sensitive documents, valuables, and consignments throughout their journey with complete reliability and discipline.\n\nWith nearly three decades of operational experience across India, CSA delivers an escort framework supported by trained officers, centralized monitoring, and route based risk assessments that ensure protection at every step.",
+          "Safe movement of people and high value assets requires meticulous planning, trained personnel, and total accountability. Crown Security Agencies provides professional Escort Services designed to protect individuals, sensitive documents, valuables, and consignments throughout their journey with complete reliability and discipline.\n\nWith nearly three decades of operational experience across India, CSA delivers an escort framework supported by trained officers, centralized monitoring, and route based risk assessments that ensure protection at every step.",
       },
       overlay: {
         enabled: true,
@@ -336,7 +336,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Businesses choose CSA for escort services because they value discipline, confidentiality, and dependable execution. Our reputation is built on:",
         scopeOfWork: [
@@ -474,7 +474,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Hospitality Security Services",
         description:
-          "Hotels, resorts, clubs, and event venues require security that is both vigilant and welcoming. Crown Security Agency provides Hospitality Security Services designed to maintain guest comfort while protecting people, property, and sensitive operational areas through trained, courteous, and professional security personnel.\n\nWith nearly three decades of experience in hospitality environments, CSA ensures that every guest feels safe, every zone remains controlled, and every operation runs smoothly without interrupting the customer experience.",
+          "Hotels, resorts, clubs, and event venues require security that is both vigilant and welcoming. Crown Security Agencies provides Hospitality Security Services designed to maintain guest comfort while protecting people, property, and sensitive operational areas through trained, courteous, and professional security personnel.\n\nWith nearly three decades of experience in hospitality environments, CSA ensures that every guest feels safe, every zone remains controlled, and every operation runs smoothly without interrupting the customer experience.",
       },
       overlay: {
         enabled: true,
@@ -545,7 +545,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Hospitality brands work with CSA because of our focus on professionalism, courtesy, and reliable protection.",
         scopeOfWork: [
@@ -689,7 +689,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Industrial Security Services",
         description:
-          "Industrial environments require a security system that is structured, vigilant, and deeply aware of safety protocols. Crown Security Agency provides specialized Industrial Security Services that protect factories, plants, warehouses, and high risk operational zones with a disciplined, compliance driven approach.\n\nWith nearly three decades of experience across India’s industrial sector, CSA combines trained manpower, technology based monitoring, and strict supervision to maintain safety, prevent losses, and support uninterrupted operations for every client site.",
+          "Industrial environments require a security system that is structured, vigilant, and deeply aware of safety protocols. Crown Security Agencies provides specialized Industrial Security Services that protect factories, plants, warehouses, and high risk operational zones with a disciplined, compliance driven approach.\n\nWith nearly three decades of experience across India’s industrial sector, CSA combines trained manpower, technology based monitoring, and strict supervision to maintain safety, prevent losses, and support uninterrupted operations for every client site.",
       },
       overlay: {
         enabled: true,
@@ -760,7 +760,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Industries rely on CSA because of our consistent operational discipline and commitment to safety standards.",
         scopeOfWork: [
@@ -902,7 +902,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Logistics Security Services",
         description:
-          "The logistics sector depends on accuracy, visibility, and uninterrupted movement. Crown Security Agency provides specialized Logistics Security Services that protect warehouses, transport hubs, loading docks, and high value consignments through a disciplined, technology enabled security framework.\n\nWith nearly three decades of experience across India’s supply chain networks, CSA secures every stage of movement from storage to dispatch. Our trained personnel, GPS supported tracking systems, and strict verification protocols help reduce losses and maintain operational integrity at all times.",
+          "The logistics sector depends on accuracy, visibility, and uninterrupted movement. Crown Security Agencies provides specialized Logistics Security Services that protect warehouses, transport hubs, loading docks, and high value consignments through a disciplined, technology enabled security framework.\n\nWith nearly three decades of experience across India’s supply chain networks, CSA secures every stage of movement from storage to dispatch. Our trained personnel, GPS supported tracking systems, and strict verification protocols help reduce losses and maintain operational integrity at all times.",
       },
       overlay: {
         enabled: true,
@@ -974,7 +974,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Logistics operators rely on CSA because of our disciplined processes and consistent accuracy across high volume environments.",
         scopeOfWork: [
@@ -1075,7 +1075,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Trusted by Leading Logistics Providers Across India",
         description:
-          "Crown Security Agency secures logistics hubs, distribution centers, and transport networks for some of India’s most recognized corporations. Our long standing presence in the sector demonstrates our capability to handle high volume operations with accuracy and integrity.",
+          "Crown Security Agencies secures logistics hubs, distribution centers, and transport networks for some of India’s most recognized corporations. Our long standing presence in the sector demonstrates our capability to handle high volume operations with accuracy and integrity.",
         scopeOfWork: [],
         image: "/images/services/Logistics Security/5.webp",
         buttons: [
@@ -1115,7 +1115,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Mall Security Services",
         description:
-          "Shopping malls require a security system that protects large public spaces while ensuring a friendly and welcoming environment. Crown Security Agency provides specialized Mall Security Services that maintain visitor safety, support smooth retail operations, and deliver continuous vigilance across all areas of the property.\n\nWith nearly three decades of experience in high footfall environments, CSA combines trained manpower, digital monitoring, and disciplined supervision to ensure every mall operates safely, efficiently, and without disruption.",
+          "Shopping malls require a security system that protects large public spaces while ensuring a friendly and welcoming environment. Crown Security Agencies provides specialized Mall Security Services that maintain visitor safety, support smooth retail operations, and deliver continuous vigilance across all areas of the property.\n\nWith nearly three decades of experience in high footfall environments, CSA combines trained manpower, digital monitoring, and disciplined supervision to ensure every mall operates safely, efficiently, and without disruption.",
       },
       overlay: {
         enabled: true,
@@ -1186,7 +1186,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Mall operators choose CSA because of our ability to maintain safety without compromising the guest experience.",
         scopeOfWork: [
@@ -1329,7 +1329,7 @@ export const services: ServiceData[] = [
       content: {
         title: "High End Residential Security Services",
         description:
-          "Premium residences demand a security system that delivers both protection and privacy. Crown Security Agency provides High End Residential Security Services designed to safeguard gated communities, luxury apartments, villas, and private residences through discreet vigilance and courteous conduct.\n\nFor nearly three decades, CSA has protected high value residential spaces across India with trained guards, advanced monitoring support, and disciplined supervision. Our approach creates a safe, peaceful environment where residents feel secure and respected at all times.",
+          "Premium residences demand a security system that delivers both protection and privacy. Crown Security Agencies provides High End Residential Security Services designed to safeguard gated communities, luxury apartments, villas, and private residences through discreet vigilance and courteous conduct.\n\nFor nearly three decades, CSA has protected high value residential spaces across India with trained guards, advanced monitoring support, and disciplined supervision. Our approach creates a safe, peaceful environment where residents feel secure and respected at all times.",
       },
       overlay: {
         enabled: true,
@@ -1400,7 +1400,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Residential communities prefer CSA because our security teams uphold safety while maintaining a warm and respectful presence.",
         scopeOfWork: [
@@ -1543,7 +1543,7 @@ export const services: ServiceData[] = [
       content: {
         title: "School Security Services",
         description:
-          "Educational institutions require a security system that protects students, staff, and visitors while maintaining a calm and nurturing environment. Crown Security Agency provides specialized School Security Services designed to support safe learning spaces with trained, child sensitive personnel and disciplined supervision.\n\nFor nearly three decades, CSA has partnered with schools, colleges, and academic campuses across India. Our approach combines structured access control, responsible guarding, and emergency readiness to ensure that safety never stands in the way of education.",
+          "Educational institutions require a security system that protects students, staff, and visitors while maintaining a calm and nurturing environment. Crown Security Agencies provides specialized School Security Services designed to support safe learning spaces with trained, child sensitive personnel and disciplined supervision.\n\nFor nearly three decades, CSA has partnered with schools, colleges, and academic campuses across India. Our approach combines structured access control, responsible guarding, and emergency readiness to ensure that safety never stands in the way of education.",
       },
       overlay: {
         enabled: true,
@@ -1614,7 +1614,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Educational institutions rely on CSA because of our disciplined processes and commitment to child safety.",
         scopeOfWork: [
@@ -1757,7 +1757,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Event Security Services",
         description:
-          "Large gatherings and events require security that is both professional and adaptable. Crown Security Agency provides specialized Event Security Services designed to manage crowds, control access, and ensure the safety of attendees, performers, and staff across conferences, exhibitions, concerts, and corporate functions.\n\nWith nearly three decades of experience in high-traffic environments, CSA combines trained personnel, strategic deployment, and real-time coordination to deliver seamless security operations that support event success without disrupting the guest experience.",
+          "Large gatherings and events require security that is both professional and adaptable. Crown Security Agencies provides specialized Event Security Services designed to manage crowds, control access, and ensure the safety of attendees, performers, and staff across conferences, exhibitions, concerts, and corporate functions.\n\nWith nearly three decades of experience in high-traffic environments, CSA combines trained personnel, strategic deployment, and real-time coordination to deliver seamless security operations that support event success without disrupting the guest experience.",
       },
       overlay: {
         enabled: true,
@@ -1828,7 +1828,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Event organizers prefer CSA because our teams bring professionalism, preparation, and seamless coordination to every assignment.",
         scopeOfWork: [
@@ -1970,7 +1970,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Security Convoy Services",
         description:
-          "High risk movements require protection that is structured, coordinated, and ready for any situation. Crown Security Agency provides specialized Security Convoy Services designed for the safe transit of high value assets, sensitive consignments, and important personnel through trained escort teams and GPS supported movement plans.\n\nFor nearly three decades, CSA has supported industries, critical projects, and corporate groups across India with secure convoy operations that combine skilled manpower, real time monitoring, and disciplined supervision.",
+          "High risk movements require protection that is structured, coordinated, and ready for any situation. Crown Security Agencies provides specialized Security Convoy Services designed for the safe transit of high value assets, sensitive consignments, and important personnel through trained escort teams and GPS supported movement plans.\n\nFor nearly three decades, CSA has supported industries, critical projects, and corporate groups across India with secure convoy operations that combine skilled manpower, real time monitoring, and disciplined supervision.",
       },
       overlay: {
         enabled: true,
@@ -2041,7 +2041,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Organizations choose CSA for convoy operations because they value discipline, transparency, and reliable execution.",
         scopeOfWork: [
@@ -2183,7 +2183,7 @@ export const services: ServiceData[] = [
       content: {
         title: "VIP Protection and Personal Security Services",
         description:
-          "High profile individuals require security that is discreet, reliable, and backed by trained professionals who understand the importance of personal safety. Crown Security Agency provides VIP Protection and Personal Security Services designed to safeguard executives, dignitaries, celebrities, and high net worth individuals through close protection, route planning, and controlled movement support.\n\nFor nearly three decades, CSA has delivered personal security solutions across India with teams trained in threat assessment, escort positioning, and emergency response. Our focus is to ensure that clients feel safe and protected without experiencing any intrusion on their comfort or privacy.",
+          "High profile individuals require security that is discreet, reliable, and backed by trained professionals who understand the importance of personal safety. Crown Security Agencies provides VIP Protection and Personal Security Services designed to safeguard executives, dignitaries, celebrities, and high net worth individuals through close protection, route planning, and controlled movement support.\n\nFor nearly three decades, CSA has delivered personal security solutions across India with teams trained in threat assessment, escort positioning, and emergency response. Our focus is to ensure that clients feel safe and protected without experiencing any intrusion on their comfort or privacy.",
       },
       overlay: {
         enabled: true,
@@ -2254,7 +2254,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "High profile clients choose CSA because we combine professionalism with confidentiality and disciplined execution.",
         scopeOfWork: [
@@ -2400,9 +2400,9 @@ export const services: ServiceData[] = [
         alt: "CCTV Monitoring & Alarm Response Services",
       },
       content: {
-        title: "CCTV Monitoring and Alarm Response Servicess",
+        title: "CCTV Monitoring and Alarm Response Services",
         description:
-          "Modern security relies heavily on real time surveillance and immediate incident response. Crown Security Agency provides CCTV Monitoring and Alarm Response Services that strengthen on ground protection through round the clock digital supervision and rapid communication with trained security personnel.\n\nWith nearly three decades of operational experience, CSA integrates skilled surveillance operators with advanced monitoring systems to give clients complete visibility across their facility. Our approach ensures early detection, quick escalation, and accurate reporting that enhances overall security performance.",
+          "Modern security relies heavily on real time surveillance and immediate incident response. Crown Security Agencies provides CCTV Monitoring and Alarm Response Services that strengthen on ground protection through round the clock digital supervision and rapid communication with trained security personnel.\n\nWith nearly three decades of operational experience, CSA integrates skilled surveillance operators with advanced monitoring systems to give clients complete visibility across their facility. Our approach ensures early detection, quick escalation, and accurate reporting that enhances overall security performance.",
       },
       overlay: {
         enabled: true,
@@ -2472,7 +2472,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Organizations choose CSA for monitoring and alarm response because of our disciplined execution and reliable supervision.",
         scopeOfWork: [
@@ -2615,7 +2615,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Access Control Management Services",
         description:
-          "Effective security begins at the entry point. Crown Security Agency provides Access Control Management Services that ensure only authorized individuals, vehicles, and materials enter your premises. With a combination of trained personnel, systematic verification processes, and integrated monitoring support, CSA strengthens the first and most critical layer of your security.\n\nFor nearly three decades, CSA has supported corporate parks, industrial plants, logistics hubs, and residential communities with structured access systems that enhance safety, transparency, and operational discipline.",
+          "Effective security begins at the entry point. Crown Security Agencies provides Access Control Management Services that ensure only authorized individuals, vehicles, and materials enter your premises. With a combination of trained personnel, systematic verification processes, and integrated monitoring support, CSA strengthens the first and most critical layer of your security.\n\nFor nearly three decades, CSA has supported corporate parks, industrial plants, logistics hubs, and residential communities with structured access systems that enhance safety, transparency, and operational discipline.",
       },
       overlay: {
         enabled: true,
@@ -2686,7 +2686,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Organizations rely on CSA for access control because of our disciplined execution and strong compliance focus.",
         scopeOfWork: [
@@ -2829,7 +2829,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Fire Safety and Emergency Drill Support Services",
         description:
-          "Fire safety is a critical part of every organisation’s risk management system. Crown Security Agency provides Fire Safety and Emergency Drill Support Services that prepare facilities to respond effectively during emergencies. Through trained personnel, structured evacuation protocols, and coordination with safety teams, CSA helps reduce risks and ensures that all occupants understand how to act during a crisis.\n\nWith nearly three decades of operational experience across industries, CSA integrates fire preparedness into daily site operations, strengthening workplace safety and compliance.",
+          "Fire safety is a critical part of every organisation’s risk management system. Crown Security Agencies provides Fire Safety and Emergency Drill Support Services that prepare facilities to respond effectively during emergencies. Through trained personnel, structured evacuation protocols, and coordination with safety teams, CSA helps reduce risks and ensures that all occupants understand how to act during a crisis.\n\nWith nearly three decades of operational experience across industries, CSA integrates fire preparedness into daily site operations, strengthening workplace safety and compliance.",
       },
       overlay: {
         enabled: true,
@@ -2901,7 +2901,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Organisations rely on CSA for fire safety support because of our disciplined processes and commitment to compliance.",
         scopeOfWork: [
@@ -3045,7 +3045,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Gate Pass and Vehicle Movement Verification",
         description:
-          "Accurate control of vehicle movement and material flow is essential for logistics hubs, factories, and industrial sites. Crown Security Agency provides Gate Pass and Vehicle Movement Verification Services that ensure every entry and exit is recorded, verified, and fully compliant with client documentation and operational protocols.\n\nWith nearly three decades of experience in high movement environments, CSA delivers a disciplined approach that prevents unauthorized removal of materials and maintains complete transparency across inbound and outbound activities.",
+          "Accurate control of vehicle movement and material flow is essential for logistics hubs, factories, and industrial sites. Crown Security Agencies provides Gate Pass and Vehicle Movement Verification Services that ensure every entry and exit is recorded, verified, and fully compliant with client documentation and operational protocols.\n\nWith nearly three decades of experience in high movement environments, CSA delivers a disciplined approach that prevents unauthorized removal of materials and maintains complete transparency across inbound and outbound activities.",
       },
       overlay: {
         enabled: true,
@@ -3116,7 +3116,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Organisations choose CSA because our disciplined verification process reduces risk and supports accurate operational flow.",
         scopeOfWork: [
@@ -3265,7 +3265,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Cargo Integrity Audit Services",
         description:
-          "Cargo integrity is essential for maintaining trust, accountability, and accuracy across logistics operations. Crown Security Agency provides Cargo Integrity Audit Services that verify seals, inspect consignments, and document every stage of cargo handling to ensure that shipments remain secure from loading to delivery.\n\nWith nearly three decades of experience in logistics and industrial security, CSA supports clients with a disciplined audit process that reduces discrepancies, prevents losses, and strengthens compliance across the supply chain.",
+          "Cargo integrity is essential for maintaining trust, accountability, and accuracy across logistics operations. Crown Security Agencies provides Cargo Integrity Audit Services that verify seals, inspect consignments, and document every stage of cargo handling to ensure that shipments remain secure from loading to delivery.\n\nWith nearly three decades of experience in logistics and industrial security, CSA supports clients with a disciplined audit process that reduces discrepancies, prevents losses, and strengthens compliance across the supply chain.",
       },
       overlay: {
         enabled: true,
@@ -3337,7 +3337,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Logistics and industrial companies prefer CSA because our audit process improves reliability and transparency across cargo movement.",
         scopeOfWork: [
@@ -3486,7 +3486,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Perimeter Patrolling and PPE Compliance Services",
         description:
-          "Industrial environments demand continuous vigilance to maintain safety, security, and operational discipline. Crown Security Agency provides Perimeter Patrolling and PPE Compliance Services that protect plant boundaries, monitor restricted zones, and ensure that every individual on site follows approved safety regulations.\n\nWith nearly three decades of experience in industrial and manufacturing security, CSA combines trained manpower, structured patrol systems, and safety focused supervision to maintain secure and compliant work environments.",
+          "Industrial environments demand continuous vigilance to maintain safety, security, and operational discipline. Crown Security Agencies provides Perimeter Patrolling and PPE Compliance Services that protect plant boundaries, monitor restricted zones, and ensure that every individual on site follows approved safety regulations.\n\nWith nearly three decades of experience in industrial and manufacturing security, CSA combines trained manpower, structured patrol systems, and safety focused supervision to maintain secure and compliant work environments.",
       },
       overlay: {
         enabled: true,
@@ -3557,7 +3557,7 @@ export const services: ServiceData[] = [
       {
         label: "",
         targetSegment: "",
-        title: "Why Clients Trust Crown Security Agency?",
+        title: "Why Clients Trust Crown Security Agencies?",
         description:
           "Industrial clients choose CSA because of our disciplined approach and strong understanding of safety compliance.",
         scopeOfWork: [

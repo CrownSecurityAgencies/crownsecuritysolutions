@@ -33,7 +33,7 @@ export const WORKFORCE_DATA: SectionContent = {
   imageSrc: "#",
   imageAlt: "#",
   paragraphs: [
-    "At the Crown Security Agency, our people are the cornerstone of our success. Every individual, from frontline guards to field officers, carries forward our legacy of reliability, discipline, and trust built over nearly three decades.\n\nWith a strong team of 2,000+ ex-military, army personnel, trained security professionals, Crown ensures seamless, consistent service across industries and regions.\n\nEach member is carefully selected and continuously trained to reflect the company’s high standards of conduct and professionalism."
+    "At the Crown Security Agencies, our people are the cornerstone of our success. Every individual, from frontline guards to field officers, carries forward our legacy of reliability, discipline, and trust built over nearly three decades.\n\nWith a strong team of 2,000+ ex-military, army personnel, trained security professionals, Crown ensures seamless, consistent service across industries and regions.\n\nEach member is carefully selected and continuously trained to reflect the company’s high standards of conduct and professionalism."
   ]
 };
 
@@ -56,7 +56,7 @@ export const WORKFORCE_STRUCTURE_DATA: WorkforceStructureData = {
     {
       title: "Employment Structure",
       description:
-        "Our workforce comprises about 70% permanent and 30% contractual employees, balancing operational stability with deployment flexibility.\n\n structure enables us to deliver the same level of commitment across both long-term and project-based assignments."},
+        "Our workforce comprises about 70% permanent and 30% contractual employees, balancing operational stability with deployment flexibility.\n\nThis structure enables us to deliver the same level of commitment across both long-term and project-based assignments."},
     {
       title: "Key Roles & Positions",
       description:
