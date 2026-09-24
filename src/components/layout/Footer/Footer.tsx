@@ -60,6 +60,7 @@ const Footer: React.FC = () => {
                     <a
                       key={item.label}
                       className={styles.socialLink}
+                      data-brand={item.label}
                       href={item.href}
                       target="_blank"
                       rel="noreferrer"
@@ -78,7 +79,7 @@ const Footer: React.FC = () => {
                         )}
                         {item.label === "Facebook" && (
                           <svg viewBox="0 0 24 24" focusable="false">
-                            <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.025 4.388 11.02 10.125 11.927v-8.437H7.078v-3.49h3.047v-2.66c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.49 0-1.956.931-1.956 1.887v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.093 24 18.098 24 12.073z" />
+                            <path d="M14 22v-9h3l.5-4H14V7c0-1.16.32-2 2-2h2V1.4A23 23 0 0 0 15.1 1C12.2 1 10 2.8 10 6v3H7v4h3v9h4Z" />
                           </svg>
                         )}
                         {item.label === "X (Twitter)" && (
@@ -121,18 +122,18 @@ const Footer: React.FC = () => {
               <div className={styles.column}>
                 <h4 className={styles.heading}>Contact</h4>
                 <p className={styles.text}>
-                  <a className={styles.link} href="https://www.google.com/maps?cid=1064529831847870676" target="_blank" rel="noopener noreferrer">
-                    Head Office: Office 11, P3 Level, Azziano, Rustomjee Urbania,
-                    Majiwada, Thane (W), Maharashtra 400601
+                  <a className={`${styles.link} ${styles.footerContactLink}`} href="https://www.google.com/maps?cid=17766265707126768076" target="_blank" rel="noopener noreferrer">
+                    Head Office: Elite&apos;s Hajra Mansion, 02, off Doctor Ansari Road,
+                    2nd, Rabodi, Thane West, Thane, Maharashtra 400601
                   </a>
                 </p>
                 <p className={styles.text}>
-                  <a className={styles.link} href="https://www.google.com/maps?cid=17766265707126768076" target="_blank" rel="noopener noreferrer">
-                    Corporate Office: Elite&apos;s Hajra Mansion, 02, off Doctor
-                    Ansari Road, 2nd, Rabodi, Thane West, Thane, Maharashtra 400601
+                  <a className={`${styles.link} ${styles.footerContactLink}`} href="https://www.google.com/maps?cid=1064529831847870676" target="_blank" rel="noopener noreferrer">
+                    Corporate Office: Office 11, P3 Level, Azziano, Rustomjee Urbania,
+                    Majiwada, Thane (W), Maharashtra 400601
                   </a>
                 </p>
-                <p className={styles.text}>info@crownsecuritysolutions.com</p>
+                <p className={styles.text}><a className={`${styles.link} ${styles.footerContactLink}`} href="mailto:info@crownsecuritysolutions.com">info@crownsecuritysolutions.com</a></p>
                 <p className={styles.text}>+91 8108107824</p>
 
                 <h4 className={styles.heading} style={{ marginTop: "1.5rem" }}>
@@ -170,3 +171,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
