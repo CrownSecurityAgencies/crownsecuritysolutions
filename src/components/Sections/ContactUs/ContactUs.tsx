@@ -50,14 +50,14 @@ const ContactUs: React.FC = () => {
                                 <div className={styles.infoCardRow}>
                                     <h3 className={styles.infoTitle}>Head & Corporate Office</h3>
                                     <p className={styles.infoText}>
-                                         Head Office: Office 11, P3 Level, Azziano, Rustomjee Urbania, Majiwada, Thane (W), Maharashtra 400601
+                                         <a className={styles.addressLink} href="https://www.google.com/maps?cid=17766265707126768076" target="_blank" rel="noopener noreferrer">Head Office: Elite&apos;s Hajra Mansion, 02, off Doctor Ansari Road, 2nd, Rabodi, Thane West, Thane, Maharashtra 400601</a>
                                     </p>
                                     <p className={styles.infoText}>
-                                        Corporate Office: Elite's Hajra Mansion, 02, off Doctor Ansari Road, 2nd, Rabodi, Thane West, Thane, Maharashtra 400601
+                                        <a className={styles.addressLink} href="https://www.google.com/maps?cid=1064529831847870676" target="_blank" rel="noopener noreferrer">Corporate Office: Office 11, P3 Level, Azziano, Rustomjee Urbania, Majiwada, Thane (W), Maharashtra 400601</a>
                                     </p>
                                     <div className={styles.infoLinkGroup}>
                                         <p className={styles.infoLink}>
-                                            Email: info@crownsecuritysolutions.com
+                                            Email: <a href="mailto:info@crownsecuritysolutions.com">info@crownsecuritysolutions.com</a>
                                         </p>
                                         <p className={styles.infoLink}>
                                             Phone: +91 8108107824
@@ -70,7 +70,7 @@ const ContactUs: React.FC = () => {
                                 <div className={styles.divider} />
                                 <div className={styles.infoCardRow}>
                                     <h3 className={styles.infoTitle}>Primary Contacts</h3>
-                                    <p className={styles.contactName}>Mr. Rahil Shaikh <br />General Manager – Business Expansion</p>
+                                    <p className={styles.contactName}>Mr. Rahil Shaikh <br />Manager – Business Expansion</p>
                                     <div className={styles.infoLinkGroup}>
                                         <p className={styles.infoLink}>
                                             Email: <a href="mailto:rahil.shaikh@crownsecuritysolutions.com">rahil.shaikh@crownsecuritysolutions.com</a>
@@ -133,3 +133,4 @@ const ContactUs: React.FC = () => {
 };
 
 export default ContactUs;
+
