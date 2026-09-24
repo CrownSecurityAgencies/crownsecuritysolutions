@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './ContactUs.module.scss';
 import ContactForm from '@/components/Sections/ContactForm/ContactForm';
 
@@ -33,6 +34,13 @@ const ContactUs: React.FC = () => {
                         </div>
 
                         <div className={styles.rightColumn}>
+                            <aside className={styles.careersNotice} aria-labelledby="careers-notice-title">
+                                <h3 id="careers-notice-title">Looking for a career with Crown?</h3>
+                                <p>For job opportunities, please visit our Careers page. The form below is for security service enquiries.</p>
+                                <Link href="/careers/" className={styles.careersLink}>
+                                    View Career Opportunities <span aria-hidden="true">→</span>
+                                </Link>
+                            </aside>
                             <ContactForm />
                         </div>
                     </div>
@@ -62,19 +70,19 @@ const ContactUs: React.FC = () => {
                                 <div className={styles.divider} />
                                 <div className={styles.infoCardRow}>
                                     <h3 className={styles.infoTitle}>Primary Contacts</h3>
-                                    <p className={styles.contactName}>Mr. Nagesh Srinivasan <br />- General Manager, Operations &amp; Expansion</p>
+                                    <p className={styles.contactName}>Mr. Rahil Shaikh <br />General Manager – Business Expansion</p>
                                     <div className={styles.infoLinkGroup}>
                                         <p className={styles.infoLink}>
-                                            Email: nagesh@crownsecuritysolutions.com
+                                            Email: <a href="mailto:rahil.shaikh@crownsecuritysolutions.com">rahil.shaikh@crownsecuritysolutions.com</a>
                                         </p>
                                         <p className={styles.infoLink}>
                                             Phone: +91 8108107824
                                         </p>
                                     </div>
-                                    <p className={styles.contactName}>Mr. Hillol Nag <br />- Head of Operations</p>
+                                    <p className={styles.contactName}>Mr. Hillol Nag <br />Head of Department (HOD)</p>
                                     <div className={styles.infoLinkGroup}>
                                         <p className={styles.infoLink}>
-                                            Email: hillol.nag@crownsecuritysolutions.com
+                                            Email: <a href="mailto:hillol.nag@crownsecuritysolutions.com">hillol.nag@crownsecuritysolutions.com</a>
                                         </p>
                                         <p className={styles.infoLink}>
                                             Phone: +91 8108107819

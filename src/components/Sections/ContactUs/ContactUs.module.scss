@@ -104,6 +104,52 @@
   min-height: 0;
 }
 
+.careersNotice {
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border: 1px solid #c7a034;
+  border-left-width: 4px;
+  background: #fcf9f0;
+  color: #252929;
+  font-family: "Inter", sans-serif;
+
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  p {
+    margin: 0 0 0.75rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+}
+
+.careersLink,
+.careersLink:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  color: #252929;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-color: #a47d16;
+  text-underline-offset: 0.25em;
+
+  &:hover {
+    color: #70530b;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #70530b;
+    outline-offset: 4px;
+  }
+}
+
 // Lower Container
 
 .lowerContainer {
@@ -221,6 +267,16 @@
 
 .infoLink {
   color: #c7a034;
+
+  a,
+  a:visited,
+  a:hover,
+  a:focus-visible,
+  a:active {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
 }
 
 .divider {
