@@ -31,17 +31,17 @@ export const metadata = {
     url: "/",
     images: [
       {
-        url: "/images/home/home-hero-bg.webp",
+        url: "/images/home/home-hero-guards.webp",
         width: 1200,
         height: 630,
-        alt: "Crown Security Agencies - Professional Security Services",
+        alt: "Crown Security Agencies guards standing together",
       },
     ],
   },
   twitter: {
     title: "Crown Security Agencies | Professional Security Services in India",
     description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
-    images: ["/images/home/home-hero-bg.webp"],
+    images: ["/images/home/home-hero-guards.webp"],
   },
   robots: {
     index: true,

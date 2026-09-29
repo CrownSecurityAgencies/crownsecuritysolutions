@@ -17,7 +17,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 }) => {
   const overlayStyle = overlay.enabled
     ? {
-      backgroundColor: overlay.color || '#000000',
+      background: overlay.gradient || overlay.color || '#000000',
       opacity: overlay.opacity || 0.5,
     }
     : undefined;

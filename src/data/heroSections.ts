@@ -4,8 +4,8 @@ import { HeroSectionProps } from "@/types/hero";
 export const homepageHero: HeroSectionProps = {
   media: {
     type: "image",
-    src: "/images/home/home-hero-bg.webp",
-    alt: "Security guard at concert",
+    src: "/images/home/home-hero-guards.webp",
+    alt: "Crown Security Agencies guards standing together",
   },
   content: {
     title: "Your Security. Our Priority.",
@@ -22,8 +22,9 @@ export const homepageHero: HeroSectionProps = {
   },
   overlay: {
     enabled: true,
-    color: "#252929",
-    opacity: 0.6,
+    gradient: 
+      "linear-gradient(90deg, rgba(12, 18, 23, 0.82) 0%, rgba(12, 18, 23, 0.65) 48%, rgba(12, 18, 23, 0.25) 100%)",
+    opacity: 1,
   },
   contentPosition: "left",
   minHeight: "840px",

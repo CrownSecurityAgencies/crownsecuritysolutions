@@ -34,6 +34,7 @@ export interface HeroSectionProps {
   overlay?: {
     enabled: boolean;
     color?: string;
+    gradient?: string;
     opacity?: number;
   };
   contentPosition?: 'left' | 'center' | 'right';

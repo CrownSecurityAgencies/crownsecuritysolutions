@@ -57,6 +57,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
 }
 
 .description {
@@ -67,6 +68,7 @@
   font-weight: 400;
   line-height: clamp(1.5rem, 1.385rem + 0.513vw, 2rem);
   white-space: pre-line;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
 }
 
 .buttonGroup {
