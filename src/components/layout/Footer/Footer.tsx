@@ -17,6 +17,10 @@ const Footer: React.FC = () => {
     label: service.title,
     href: `/services/${service.slug}`,
   }));
+  const serviceLinkColumns = [
+    [...serviceLinks.slice(0, 11)],
+    [...serviceLinks.slice(11)],
+  ];
 
   const legalLinks = [
     { label: "Terms & Conditions", href: "/terms-and-conditions" },
@@ -108,15 +112,19 @@ const Footer: React.FC = () => {
 
               <div className={styles.column}>
                 <h4 className={styles.heading}>Services</h4>
-                <ul className={styles.linkList}>
-                  {serviceLinks.map((item) => (
-                    <li key={item.label}>
-                      <Link href={item.href} className={styles.link}>
-                        {item.label}
-                      </Link>
-                    </li>
+                <div className={styles.serviceLists}>
+                  {serviceLinkColumns.map((column, columnIndex) => (
+                    <ul className={styles.linkList} key={columnIndex}>
+                      {column.map((item) => (
+                        <li key={item.label}>
+                          <Link href={item.href} className={styles.link}>
+                            {item.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
                   ))}
-                </ul>
+                </div>
               </div>
 
               <div className={styles.column}>
@@ -171,4 +179,3 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-
