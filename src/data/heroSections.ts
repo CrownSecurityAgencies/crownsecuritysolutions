@@ -4,7 +4,7 @@ import { HeroSectionProps } from "@/types/hero";
 export const homepageHero: HeroSectionProps = {
   media: {
     type: "image",
-    src: "/images/home/home-hero-guards.webp",
+    src: "/images/home/home-hero-guards-1920.webp",
     alt: "Crown Security Agencies guards standing together",
   },
   content: {
@@ -22,9 +22,8 @@ export const homepageHero: HeroSectionProps = {
   },
   overlay: {
     enabled: true,
-    gradient: 
-      "linear-gradient(90deg, rgba(12, 18, 23, 0.82) 0%, rgba(12, 18, 23, 0.65) 48%, rgba(12, 18, 23, 0.25) 100%)",
-    opacity: 1,
+    color: "#101820",
+    opacity: 0.62,
   },
   contentPosition: "left",
   minHeight: "840px",
@@ -134,3 +133,4 @@ export const careerspageHero: HeroSectionProps = {
   contentPosition: "left",
   minHeight: "840px",
 };
+
