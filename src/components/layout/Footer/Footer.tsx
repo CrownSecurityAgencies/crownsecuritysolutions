@@ -142,7 +142,7 @@ const Footer: React.FC = () => {
                   </a>
                 </p>
                 <p className={styles.text}><a className={`${styles.link} ${styles.footerContactLink}`} href="mailto:info@crownsecuritysolutions.com">info@crownsecuritysolutions.com</a></p>
-                <p className={styles.text}>+91 8108107824</p>
+                <p className={styles.text}><a className={`${styles.link} ${styles.footerContactLink}`} href="tel:+918108107824">+91 8108107824</a></p>
 
                 <h4 className={styles.heading} style={{ marginTop: "1.5rem" }}>
                   Legal

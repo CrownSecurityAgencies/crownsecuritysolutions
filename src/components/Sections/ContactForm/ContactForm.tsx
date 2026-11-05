@@ -1,4 +1,5 @@
 'use client';
+import { trackEvent } from '@/lib/analytics';
 
 import React, { useState } from 'react';
 import Button, { ArrowIcon } from '@/components/UI/Button/Button';
@@ -102,6 +103,7 @@ const ContactForm: React.FC = () => {
       });
 
       if (response.ok) {
+        trackEvent('generate_lead', { form_name: 'contact', service: formData.service || undefined });
         setIsSuccess(true);
         setModalMessage('Your message has been successfully submitted. Our team will get back to you within 24hrs.');
         setIsModalOpen(true);

@@ -1,4 +1,5 @@
 'use client';
+import { trackEvent } from '@/lib/analytics';
 
 import React, { useState, useEffect } from 'react';
 import styles from './CareersSection.module.scss';
@@ -212,6 +213,7 @@ const CareersSection: React.FC = () => {
       });
 
       if (response.ok) {
+        trackEvent('job_application', { form_name: 'careers' });
         setIsSuccess(true);
         setErrorMessage('');
         setIsModalOpen(true);

@@ -5,38 +5,23 @@ export const JsonLd: React.FC = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Crown Security Agencies",
-    "image": "/images/logo.png",
+    "image": "https://crownsecuritysolutions.com/images/css_logo.svg",
     "@id": "https://crownsecuritysolutions.com",
     "url": "https://crownsecuritysolutions.com",
-    "telephone": "+91-98200 98200",
+    "telephone": "+91-8108107824",
+    "email": "info@crownsecuritysolutions.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Office No. 201, 2nd Floor, Shreeji Plaza, Near Khar West Station",
-      "addressLocality": "Mumbai",
+      "streetAddress": "Elite's Hajra Mansion, 02, off Doctor Ansari Road, 2nd, Rabodi, Thane West",
+      "addressLocality": "Thane",
       "addressRegion": "Maharashtra",
-      "postalCode": "400052",
+      "postalCode": "400601",
       "addressCountry": "IN"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 19.0330,
-      "longitude": 72.8270
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday", 
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "opens": "09:00",
-      "closes": "18:00"
-    },
     "sameAs": [
-      "https://in.linkedin.com/company/crown-security-solutions"
+      "https://www.linkedin.com/company/crownsecurity-agencies/",
+      "https://www.instagram.com/crownsecurityagencies",
+      "https://www.facebook.com/share/1ER1LcPvMA/?mibextid=wwXIfr"
     ]
   };
 
