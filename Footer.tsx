@@ -1,0 +1,181 @@
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { navigationItems } from "@/data/navigation";
+import { services } from "@/data/services";
+import styles from "./Footer.module.scss";
+import MapSection from "@/components/Sections/MapSection/MapSection";
+
+const Footer: React.FC = () => {
+  const quickLinks = [
+    ...navigationItems,
+    { label: "Contact Us", href: "/contact-us" },
+  ];
+
+  // Add all service links from the services data
+  const serviceLinks = services.map((service) => ({
+    label: service.title,
+    href: `/services/${service.slug}`,
+  }));
+  const serviceLinkColumns = [
+    [...serviceLinks.slice(0, 11)],
+    [...serviceLinks.slice(11)],
+  ];
+
+  const legalLinks = [
+    { label: "Terms & Conditions", href: "/terms-and-conditions" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+  ];
+
+  const socialLinks = [
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/company/crownsecurity-agencies/",
+    },
+    {
+      label: "Instagram",
+      href: "https://www.instagram.com/crownsecurityagencies",
+    },
+    {
+      label: "Facebook",
+      href: "https://www.facebook.com/share/1ER1LcPvMA/?mibextid=wwXIfr",
+    },
+  ];
+
+  return (
+    <>
+      <footer className={styles.footer}>
+        <div className={styles.top}>
+          <div className="full-width-container">
+            <div className={styles.grid}>
+              <div className={styles.brand}>
+                <Image
+                  src="/logo_black.png"
+                  alt="Crown Security Agencies"
+                  width={171}
+                  height={40}
+                />
+                <p className={styles.brandText}>
+                  Trusted security services designed to protect people,
+                  property, and reputation across India.
+                </p>
+                <div className={styles.socialRow}>
+                  {socialLinks.map((item) => (
+                    <a
+                      key={item.label}
+                      className={styles.socialLink}
+                      data-brand={item.label}
+                      href={item.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={item.label}
+                    >
+                      <span className={styles.socialIcon} aria-hidden="true">
+                        {item.label === "LinkedIn" && (
+                          <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5ZM0.5 23.5H4.5V7.5H0.5V23.5ZM8.5 7.5H12.33V9.67H12.39C12.96 8.59 14.37 7.44 16.43 7.44C20.5 7.44 21.5 10.01 21.5 13.36V23.5H17.5V14.37C17.5 12.18 17.46 9.37 14.47 9.37C11.43 9.37 10.96 11.72 10.96 14.21V23.5H6.96V7.5H8.5Z" />
+                          </svg>
+                        )}
+                        {item.label === "Instagram" && (
+                          <svg viewBox="0 0 24 24" focusable="false">
+                            <rect x="3" y="3" width="18" height="18" rx="5.5" fill="none" stroke="currentColor" strokeWidth="2" /><circle cx="12" cy="12" r="4.25" fill="none" stroke="currentColor" strokeWidth="2" /><circle cx="17.5" cy="6.5" r="1.25" />
+                          </svg>
+                        )}
+                        {item.label === "Facebook" && (
+                          <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M14 22v-9h3l.5-4H14V7c0-1.16.32-2 2-2h2V1.4A23 23 0 0 0 15.1 1C12.2 1 10 2.8 10 6v3H7v4h3v9h4Z" />
+                          </svg>
+                        )}
+                        {item.label === "X (Twitter)" && (
+                          <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M18.9 2H22l-6.77 7.74L23 22h-6.2l-4.86-6.35L6.2 22H3l7.23-8.26L1 2h6.35l4.4 5.82L18.9 2Zm-1.1 18h1.72L7.26 4H5.43l12.37 16Z" />
+                          </svg>
+                        )}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              <div className={styles.column}>
+                <h4 className={styles.heading}>Quick Links</h4>
+                <ul className={styles.linkList}>
+                  {quickLinks.map((item) => (
+                    <li key={item.label}>
+                      <Link href={item.href} className={styles.link}>
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className={styles.column}>
+                <h4 className={styles.heading}>Services</h4>
+                <div className={styles.serviceLists}>
+                  {serviceLinkColumns.map((column, columnIndex) => (
+                    <ul className={styles.linkList} key={columnIndex}>
+                      {column.map((item) => (
+                        <li key={item.label}>
+                          <Link href={item.href} className={styles.link}>
+                            {item.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  ))}
+                </div>
+              </div>
+
+              <div className={styles.column}>
+                <h4 className={styles.heading}>Contact</h4>
+                <p className={styles.text}>
+                  <a className={`${styles.link} ${styles.footerContactLink}`} href="https://www.google.com/maps?cid=17766265707126768076" target="_blank" rel="noopener noreferrer">
+                    Head Office: Elite&apos;s Hajra Mansion, 02, off Doctor Ansari Road,
+                    2nd, Rabodi, Thane West, Thane, Maharashtra 400601
+                  </a>
+                </p>
+                <p className={styles.text}>
+                  <a className={`${styles.link} ${styles.footerContactLink}`} href="https://www.google.com/maps?cid=1064529831847870676" target="_blank" rel="noopener noreferrer">
+                    Corporate Office: Office 11, P3 Level, Azziano, Rustomjee Urbania,
+                    Majiwada, Thane (W), Maharashtra 400601
+                  </a>
+                </p>
+                <p className={styles.text}><a className={`${styles.link} ${styles.footerContactLink}`} href="mailto:info@crownsecuritysolutions.com">info@crownsecuritysolutions.com</a></p>
+                <p className={styles.text}><a className={`${styles.link} ${styles.footerContactLink}`} href="tel:+918108107824">+91 8108107824</a></p>
+
+                <h4 className={styles.heading} style={{ marginTop: "1.5rem" }}>
+                  Legal
+                </h4>
+                <ul className={styles.linkList}>
+                  {legalLinks.map((item) => (
+                    <li key={item.label}>
+                      <Link href={item.href} className={styles.link}>
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <MapSection />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.stripe} aria-hidden="true" />
+
+        <div className={styles.bottom}>
+          <div className="full-width-container">
+            <p className={styles.bottomText}>
+              Copyright {new Date().getFullYear()} Crown Security Agencies. All
+              rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+};
+
+export default Footer;
