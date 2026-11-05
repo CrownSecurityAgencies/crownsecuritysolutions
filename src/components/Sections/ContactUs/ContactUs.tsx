@@ -60,7 +60,7 @@ const ContactUs: React.FC = () => {
                                             Email: <a href="mailto:info@crownsecuritysolutions.com">info@crownsecuritysolutions.com</a>
                                         </p>
                                         <p className={styles.infoLink}>
-                                            Phone: +91 8108107824
+                                            Phone: <a href="tel:+918108107824">+91 8108107824</a>
                                         </p>
                                     </div>
                                     <p className={styles.infoText}>
@@ -76,7 +76,7 @@ const ContactUs: React.FC = () => {
                                             Email: <a href="mailto:rahil.shaikh@crownsecuritysolutions.com">rahil.shaikh@crownsecuritysolutions.com</a>
                                         </p>
                                         <p className={styles.infoLink}>
-                                            Phone: +91 8108107824
+                                            Phone: <a href="tel:+918108107824">+91 8108107824</a>
                                         </p>
                                     </div>
                                     <p className={styles.contactName}>Mr. Hillol Nag <br />Head of Department (HOD)</p>
@@ -85,7 +85,7 @@ const ContactUs: React.FC = () => {
                                             Email: <a href="mailto:hillol.nag@crownsecuritysolutions.com">hillol.nag@crownsecuritysolutions.com</a>
                                         </p>
                                         <p className={styles.infoLink}>
-                                            Phone: +91 8108107819
+                                            Phone: <a href="tel:+918108107819">+91 8108107819</a>
                                         </p>
                                     </div>
                                 </div>
