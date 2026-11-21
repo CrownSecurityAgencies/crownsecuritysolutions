@@ -33,6 +33,14 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Job applications belong on the Careers page, not in the enquiries sheet
+    if (body.service === 'job-application') {
+      return NextResponse.json(
+        { error: 'For job applications, please use our Careers page.' },
+        { status: 400 }
+      );
+    }
+
     // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(body.email)) {
