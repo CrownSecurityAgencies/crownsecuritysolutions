@@ -240,3 +240,51 @@
 }
 
 .label { font: inherit; font-weight: 600; margin-bottom: 0.5rem; color: #252929; }
+
+// Shown instead of the message field when "Applying for a job" is selected
+.jobNotice {
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border: 1px solid #c7a034;
+  border-left-width: 4px;
+  background: #fcf9f0;
+  color: #252929;
+  font-family: "Inter", sans-serif;
+}
+
+.jobNoticeTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.jobNoticeText {
+  margin: 0 0 1rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.jobNoticeButton,
+.jobNoticeButton:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.625rem 1.25rem;
+  background: #252929;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background: #000000;
+    color: #c7a034;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #70530b;
+    outline-offset: 3px;
+  }
+}

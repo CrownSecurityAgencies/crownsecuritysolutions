@@ -2,9 +2,13 @@
 import { trackEvent } from '@/lib/analytics';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Button, { ArrowIcon } from '@/components/UI/Button/Button';
 import { services } from '@/data/services';
 import styles from './ContactForm.module.scss';
+
+// Dropdown value for people looking for a job; they are sent to the Careers page instead of submitting.
+export const JOB_APPLICATION_OPTION = 'job-application';
 
 interface FormData {
   name: string;
@@ -36,6 +40,7 @@ const ContactForm: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [modalMessage, setModalMessage] = useState('');
+  const isJobSeeker = formData.service === JOB_APPLICATION_OPTION;
 
   const validateEmail = (email: string): boolean => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -82,6 +87,10 @@ const ContactForm: React.FC = () => {
       e.preventDefault();
     }
     
+    if (isJobSeeker) {
+      return;
+    }
+
     if (!validateForm()) {
       return;
     }
@@ -155,6 +164,10 @@ const ContactForm: React.FC = () => {
       ...prev,
       service: value
     }));
+
+    if (value === JOB_APPLICATION_OPTION) {
+      trackEvent('job_seeker_redirect', { form_name: 'contact' });
+    }
     
     // Clear error when user selects a service
     if (errors.service) {
@@ -247,6 +260,9 @@ const ContactForm: React.FC = () => {
                   {service.title}
                 </option>
               ))}
+              <optgroup label="Not a service enquiry?">
+                <option value={JOB_APPLICATION_OPTION}>Applying for a job at Crown</option>
+              </optgroup>
             </select>
             <span className={styles.selectIcon} aria-hidden="true">
               <svg viewBox="0 0 16 10" focusable="false" aria-hidden="true">
@@ -264,34 +280,53 @@ const ContactForm: React.FC = () => {
           {errors.service && <span id="contact-service-error" className={styles.errorMessage}>{errors.service}</span>}
         </div>
 
-        <div className={styles.field}>
-          <label htmlFor="contact-message" className={styles.label}>Message *</label>
-          <textarea
-            name="message"
-            id="contact-message"
-            aria-invalid={Boolean(errors.message)}
-            aria-describedby={errors.message ? 'contact-message-error' : undefined}
-            placeholder="Message*"
+        {isJobSeeker ? (
+          <div className={styles.jobNotice} role="status" aria-live="polite">
+            <h4 className={styles.jobNoticeTitle}>Looking for a job with Crown?</h4>
+            <p className={styles.jobNoticeText}>
+              This form is for businesses enquiring about our security services. Job applications are
+              handled on our Careers page, where you can see open roles and apply directly.
+            </p>
+            <Link
+              href="/careers/"
+              className={styles.jobNoticeButton}
+              onClick={() => trackEvent('job_seeker_careers_click', { form_name: 'contact' })}
+            >
+              Go to Careers <span aria-hidden="true">→</span>
+            </Link>
+          </div>
+        ) : (
+          <>
+          <div className={styles.field}>
+            <label htmlFor="contact-message" className={styles.label}>Message *</label>
+            <textarea
+              name="message"
+              id="contact-message"
+              aria-invalid={Boolean(errors.message)}
+              aria-describedby={errors.message ? 'contact-message-error' : undefined}
+              placeholder="Message*"
 
-            value={formData.message}
-            onChange={handleInputChange}
-            className={`${styles.textarea} ${errors.message ? styles.error : ''}`}
-            rows={4}
-            required
-          />
-          {errors.message && <span id="contact-message-error" className={styles.errorMessage}>{errors.message}</span>}
-        </div>
+              value={formData.message}
+              onChange={handleInputChange}
+              className={`${styles.textarea} ${errors.message ? styles.error : ''}`}
+              rows={4}
+              required
+            />
+            {errors.message && <span id="contact-message-error" className={styles.errorMessage}>{errors.message}</span>}
+          </div>
 
-        <div className={styles.submitRow}>
-          <Button
-            text={isSubmitting ? "Submitting..." : "Submit"}
-            icon={<ArrowIcon />}
-            className={styles.submitButton}
-            textColor="#f6292f"
-            iconBgColor="#f6292f"
+          <div className={styles.submitRow}>
+            <Button
+              text={isSubmitting ? "Submitting..." : "Submit"}
+              icon={<ArrowIcon />}
+              className={styles.submitButton}
+              textColor="#f6292f"
+              iconBgColor="#f6292f"
 
-          />
-        </div>
+            />
+          </div>
+          </>
+        )}
       </form>
       {isModalOpen && (
         <div className={styles.modalOverlay} role="dialog" aria-modal="true">
