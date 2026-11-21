@@ -106,6 +106,7 @@ const CertificatesSection: React.FC = () => {
               title="PSARA Licensed & ISO Certified Security Agency"
               subtitle="Preview the company certificates below without leaving the page."
             />
+          </div>
 
           <div className={styles.certificatesGrid}>
             {CERTIFICATES.map((certificate) => (
