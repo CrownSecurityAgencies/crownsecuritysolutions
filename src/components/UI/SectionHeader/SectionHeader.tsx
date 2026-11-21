@@ -6,13 +6,15 @@ interface SectionHeaderProps {
   title: string;
   subtitle?: string;
   highlightedWords?: string[];
+  as?: 'h1' | 'h2';
 }
 
 const SectionHeader: React.FC<SectionHeaderProps> = ({
   label,
   title,
   subtitle,
-  highlightedWords = []
+  highlightedWords = [],
+  as: HeadingTag = 'h2'
 }) => {
   // Simple function to render title with highlighted words
   const renderHighlightedTitle = (titleText: string, highlights: string[]) => {
@@ -47,9 +49,9 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
     <div className={styles.header}>
       <div className={styles.eyebrow}>
         {label && <span className={styles.label}>{label}</span>}
-        <h2 className={styles.title}>
+        <HeadingTag className={styles.title}>
           {renderHighlightedTitle(title, highlightedWords)}
-        </h2>
+        </HeadingTag>
       </div>
       {subtitle && (
         <p className={styles.subtitle}>
