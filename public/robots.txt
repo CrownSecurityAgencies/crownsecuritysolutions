@@ -6,4 +6,4 @@ Allow: /
 Host: https://crownsecuritysolutions.com
 
 # Sitemaps
-Sitemap: https://crownsecuritysolutions.com/sitemap.xml
+Sitemap: https://crownsecuritysolutions.com/sitemap-0.xml
