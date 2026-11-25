@@ -21,14 +21,14 @@ import styles from './page.module.scss';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "About Crown Security Agencies | Trusted Security Experts",
+  title: "About Us",
   description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
   keywords: ["about us", "security company", "security experts", "security services", "professional security", "security solutions"],
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Crown Security Agencies | Trusted Security Experts",
+    title: "About Us",
     description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
     url: "/about",
     images: [
@@ -41,7 +41,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "About Crown Security Agencies | Trusted Security Experts",
+    title: "About Us",
     description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
     images: ["/images/about/about-hero-bg.webp"],
   },
