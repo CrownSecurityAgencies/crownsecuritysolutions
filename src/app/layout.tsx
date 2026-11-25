@@ -10,7 +10,7 @@ import GoogleAnalytics from "@/components/Analytics/GoogleAnalytics";
 
 export const metadata = {
   title: {
-    default: "Crown Security Agencies | Professional Security Services in India",
+    default: "Security Services in India | Crown Security Agencies",
     template: "%s | Crown Security Agencies"
   },
   icons: {
@@ -40,7 +40,7 @@ export const metadata = {
     type: "website",
     locale: "en_IN",
     url: "/",
-    title: "Crown Security Agencies | Professional Security Services in India",
+    title: "Security Services in India | Crown Security Agencies",
     description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
     siteName: "Crown Security Agencies",
     images: [
@@ -54,7 +54,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Crown Security Agencies | Professional Security Services in India",
+    title: "Security Services in India | Crown Security Agencies",
     description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
     images: ["/images/home/home-hero-bg.webp"],
     creator: "@crownsecurity",
