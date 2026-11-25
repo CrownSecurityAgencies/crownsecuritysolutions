@@ -44,8 +44,8 @@ export const serviceData: ServiceData[] = [
   },
   {
     label: "SERVICE 02",
-    title: "Escort Services",
-    description: "Crown’s Escort Services provide end-to-end protection for high-value personnel, cash, documents, or sensitive consignments. Each movement is planned with detailed route mapping, risk assessments, and timed check-ins to minimize exposure. Our escort teams are trained in close protection, communication protocols, and contingency handling, ensuring security without disrupting operations. Whether it’s a single transfer or a recurring route, we maintain chain-of-custody documentation and real-time tracking that offers safety, reliability, and complete accountability.",
+    title: "Security Escort Services",
+    description: "Crown’s Security Escort Services provide end-to-end protection for high-value personnel, cash, documents, or sensitive consignments. Each movement is planned with detailed route mapping, risk assessments, and timed check-ins to minimize exposure. Our escort teams are trained in close protection, communication protocols, and contingency handling, ensuring security without disrupting operations. Whether it’s a single transfer or a recurring route, we maintain chain-of-custody documentation and real-time tracking that offers safety, reliability, and complete accountability.",
     targetSegment: "Banks, Logistics Firms, High-Profile Individuals, and Corporations.",
     scopeOfWork: [
       "Route planning and risk assessment.",
