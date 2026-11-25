@@ -14,7 +14,7 @@ export const homepageHero: HeroSectionProps = {
     buttons: [
       {
         text: "LEARN HOW",
-        href: "/about",
+        href: "/about/",
         variant: "primary",
         iconBgColor: "#F6292F",
       },
