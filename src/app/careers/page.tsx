@@ -8,16 +8,33 @@ import { careerspageHero } from '@/data/heroSections';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "Security Careers",
-  description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
-  keywords: ["careers", "security jobs", "security careers", "join our team", "security company jobs", "professional security careers"],
+  title: "Security Guard Jobs & Careers",
+  description: "Explore security guard, lady guard, security supervisor and field officer career opportunities with Crown Security Agencies. View current openings and apply online.",
+  keywords: [
+    "security guard jobs",
+    "security guard job in Thane",
+    "security guard jobs in Mumbai",
+    "security jobs in Navi Mumbai",
+    "security jobs in Bhiwandi",
+    "security jobs in Pune",
+    "security jobs in Chennai",
+    "lady security guard jobs",
+    "security supervisor jobs",
+    "field officer security jobs",
+    "security guard vacancy",
+    "security job vacancy",
+    "security staff recruitment",
+    "security company jobs",
+    "security careers",
+    "join Crown Security Agencies",
+  ],
   alternates: {
-    canonical: "/careers",
+    canonical: "/careers/",
   },
   openGraph: {
-    title: "Security Careers | Crown Security Agencies",
+    title: "Security Guard Jobs & Careers | Crown Security Agencies",
     description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
-    url: "/careers",
+    url: "/careers/",
     images: [
       {
         url: "/images/home/home-hero-bg.webp",
