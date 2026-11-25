@@ -28,10 +28,10 @@ const serviceMetadata = {
     canonical: "/services/corporate-park-security",
     keywords: ["corporate park security", "office security", "business park security", "corporate security services", "professional security"],
   },
-  'escort-services': {
-    title: "Escort Security Services",
+  'security-escort-services': {
+    title: "Security Escort Services",
     description: "Crown provides professional escort services for secure transportation of valuables, personnel, and high-risk cargo. Our trained escorts ensure safe transit with real-time monitoring and emergency response capabilities.",
-    canonical: "/services/escort-services",
+    canonical: "/services/security-escort-services",
     keywords: ["escort security", "security escort", "valuable transportation", "high-risk cargo", "professional security services"],
   },
   'hospitality-services': {
