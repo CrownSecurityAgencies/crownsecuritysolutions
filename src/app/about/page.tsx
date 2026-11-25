@@ -25,12 +25,12 @@ export const metadata = {
   description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
   keywords: ["about us", "security company", "security experts", "security services", "professional security", "security solutions"],
   alternates: {
-    canonical: "/about",
+    canonical: "/about/",
   },
   openGraph: {
     title: "About Us | Crown Security Agencies",
     description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
-    url: "/about",
+    url: "/about/",
     images: [
       {
         url: "/images/about/about-hero-bg.webp",
