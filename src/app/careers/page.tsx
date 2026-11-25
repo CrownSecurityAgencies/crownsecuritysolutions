@@ -8,14 +8,14 @@ import { careerspageHero } from '@/data/heroSections';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "Careers at Crown Security Agencies | Join Our Team",
+  title: "Security Careers",
   description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
   keywords: ["careers", "security jobs", "security careers", "join our team", "security company jobs", "professional security careers"],
   alternates: {
     canonical: "/careers",
   },
   openGraph: {
-    title: "Careers at Crown Security Agencies | Join Our Team",
+    title: "Security Careers",
     description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
     url: "/careers",
     images: [
@@ -28,7 +28,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Careers at Crown Security Agencies | Join Our Team",
+    title: "Security Careers",
     description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
     images: ["/images/home/home-hero-bg.webp"],
   },
