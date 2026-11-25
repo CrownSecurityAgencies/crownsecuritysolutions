@@ -33,7 +33,7 @@ export const metadata = {
   },
   openGraph: {
     title: "Security Guard Jobs & Careers | Crown Security Agencies",
-    description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
+    description: "Explore security guard, lady guard, security supervisor and field officer career opportunities with Crown Security Agencies. View current openings and apply online.",
     url: "/careers/",
     images: [
       {
@@ -45,8 +45,8 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Security Careers | Crown Security Agencies",
-    description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
+    title: "Security Guard Jobs & Careers | Crown Security Agencies",
+    description: "Explore security guard, lady guard, security supervisor and field officer career opportunities with Crown Security Agencies. View current openings and apply online.",
     images: ["/images/home/home-hero-bg.webp"],
   },
   robots: {
