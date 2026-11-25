@@ -23,103 +23,103 @@ export const revalidate = 3600;
 // Service metadata mapping for all 17 services
 const serviceMetadata = {
   'corporate-park-security': {
-    title: "Corporate Park Security Services | Crown Security Agencies",
+    title: "Corporate Park Security",
     description: "Crown's Corporate Park Security solutions are designed to protect large office complexes while maintaining a professional and welcoming environment. Our trained personnel manage access points, visitor verification, vehicle checks, and CCTV surveillance with precision and discretion.",
     canonical: "/services/corporate-park-security",
     keywords: ["corporate park security", "office security", "business park security", "corporate security services", "professional security"],
   },
   'escort-services': {
-    title: "Professional Escort Security Services | Crown Security Agencies",
+    title: "Escort Security Services",
     description: "Crown provides professional escort services for secure transportation of valuables, personnel, and high-risk cargo. Our trained escorts ensure safe transit with real-time monitoring and emergency response capabilities.",
     canonical: "/services/escort-services",
     keywords: ["escort security", "security escort", "valuable transportation", "high-risk cargo", "professional security services"],
   },
   'hospitality-services': {
-    title: "Hospitality Security Services for Hotels & Resorts",
+    title: "Hospitality Security",
     description: "Expert hospitality security services designed for hotels, resorts, and venues to ensure guest safety, staff protection, and smooth operations.",
     canonical: "/services/hospitality-services",
     keywords: ["hospitality security", "hotel security", "resort security", "venue security", "guest safety"],
   },
   'industrial-security': {
-    title: "Industrial Security Services | Plant & Factory Protection",
+    title: "Industrial Security",
     description: "Comprehensive industrial security services for factories, plants, and warehouses with trained guards, surveillance, and compliance monitoring.",
     canonical: "/services/industrial-security",
     keywords: ["industrial security", "factory security", "plant security", "warehouse security", "industrial protection"],
   },
   'logistics-security': {
-    title: "Logistics Security Services | Cargo & Supply Chain Safety",
+    title: "Logistics Security",
     description: "Advanced logistics security services ensure cargo safety, transit protection, theft prevention, and end-to-end supply chain security.",
     canonical: "/services/logistics-security",
     keywords: ["logistics security", "cargo security", "supply chain security", "transportation security", "cargo protection"],
   },
   'mall-security': {
-    title: "Mall & Retail Security Services | Crown Security Agencies",
+    title: "Mall & Retail Security",
     description: "Professional mall security services ensure crowd control, theft prevention, surveillance, and a safe shopping environment for customers.",
     canonical: "/services/mall-security",
     keywords: ["mall security", "retail security", "shopping mall security", "crowd control", "theft prevention"],
   },
   'high-end-residential-security': {
-    title: "High-End Residential Security Services | Premium Protection",
+    title: "Residential Security",
     description: "Elite residential security services for luxury homes and gated communities, offering discreet protection, surveillance, and access control.",
     canonical: "/services/high-end-residential-security",
     keywords: ["residential security", "luxury home security", "gated community security", "high-end security", "discreet protection"],
   },
   'school-security': {
-    title: "School Security Services | Student & Campus Safety",
+    title: "School Security",
     description: "Trusted school security services ensuring student safety, controlled access, surveillance, and emergency preparedness for campuses.",
     canonical: "/services/school-security",
     keywords: ["school security", "campus security", "student safety", "school protection", "educational security"],
   },
   'event-security': {
-    title: "Event Security Services | Crowd & Venue Management",
+    title: "Event Security",
     description: "Professional event security services for corporate events, concerts, and gatherings with trained personnel and crowd control expertise.",
     canonical: "/services/event-security",
     keywords: ["event security", "crowd management", "venue security", "concert security", "corporate event security"],
   },
   'security-convoy-services': {
-    title: "Security Convoy Services | Secure Asset Movement",
+    title: "Security Convoy Services",
     description: "Reliable security convoy services for high-value assets, cargo, and personnel, ensuring secure and monitored transportation.",
     canonical: "/services/security-convoy-services",
     keywords: ["security convoy", "armored transport", "high-value transport", "secure transportation", "convoy protection"],
   },
   'vip-protection-personal-escort-security': {
-    title: "VIP Protection & Personal Escort Security Services",
+    title: "VIP Protection Services",
     description: "Discreet and professional VIP protection services offering personal escort security for executives, celebrities, and high-profile individuals.",
     canonical: "/services/vip-protection-personal-escort-security",
     keywords: ["VIP protection", "personal security", "executive protection", "celebrity security", "personal escort"],
   },
   'cctv-monitoring-alarm-response-services': {
-    title: "CCTV Monitoring & Alarm Response Services",
+    title: "CCTV Monitoring Services",
     description: "24/7 CCTV monitoring and rapid alarm response services to detect threats, prevent incidents, and ensure round-the-clock security.",
     canonical: "/services/cctv-monitoring-alarm-response-services",
     keywords: ["CCTV monitoring", "alarm response", "surveillance services", "24/7 monitoring", "security monitoring"],
   },
   'access-control-management': {
-    title: "Access Control Management Services | Secure Entry Systems",
+    title: "Access Control Services",
     description: "Advanced access control management services ensure authorized entry, visitor tracking, and enhanced premises security.",
     canonical: "/services/access-control-management",
     keywords: ["access control", "secure entry", "visitor management", "access management", "security systems"],
   },
   'fire-safety-emergency-drill-support': {
-    title: "Fire Safety & Emergency Drill Support Services",
+    title: "Fire Safety Services",
     description: "Fire safety and emergency drill support services ensure preparedness, compliance, and effective emergency response planning.",
     canonical: "/services/fire-safety-emergency-drill-support",
     keywords: ["fire safety", "emergency drill", "safety training", "emergency preparedness", "fire prevention"],
   },
   'gate-pass-and-vehicle-movement-verification-logistics-industrial': {
-    title: "Gate-Pass & Vehicle Movement Verification Services",
+    title: "Gate-Pass Verification",
     description: "Efficient gate-pass and vehicle movement verification services for logistics and industrial facilities, ensuring controlled access and security.",
     canonical: "/services/gate-pass-and-vehicle-movement-verification-logistics-industrial",
     keywords: ["gate-pass", "vehicle verification", "access control", "logistics security", "industrial security"],
   },
   'cargo-integrity-audits-logistics-security': {
-    title: "Cargo Integrity Audit Services | Logistics Security",
+    title: "Cargo Integrity Audits",
     description: "Cargo integrity audit services ensure shipment accuracy, theft prevention, and compliance across logistics and supply chain operations.",
     canonical: "/services/cargo-integrity-audits-logistics-security",
     keywords: ["cargo integrity", "shipment audit", "logistics audit", "cargo security", "supply chain security"],
   },
   'perimeter-patrolling-ppe-compliance-industrial-security': {
-    title: "Perimeter Patrolling & PPE Compliance Services",
+    title: "Perimeter Security Services",
     description: "Perimeter patrolling and PPE compliance services for industrial sites, ensuring safety, security, and adherence to regulatory standards.",
     canonical: "/services/perimeter-patrolling-ppe-compliance-industrial-security",
     keywords: ["perimeter security", "PPE compliance", "industrial patrolling", "safety compliance", "perimeter protection"],
@@ -136,7 +136,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
   // Get metadata for this specific service
   const metadata = serviceMetadata[slug as keyof typeof serviceMetadata] || {
-    title: `${service.title} | Crown Security Agencies`,
+    title: "Security Services",
     description: service.description,
     canonical: `/services/${slug}`,
     keywords: ["security services", "professional security", "security solutions"],
@@ -188,13 +188,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!service) {
     return {
-      title: "Service Not Found | Crown Security Agencies",
+      title: "Service Not Found",
       description: "The requested service page was not found.",
     };
   }
 
   const metadata = serviceMetadata[slug as keyof typeof serviceMetadata] || {
-    title: `${service.title} | Crown Security Agencies`,
+    title: "Security Services",
     description: service.description,
     canonical: `/services/${slug}`,
     keywords: ["security services", "professional security", "security solutions"],
