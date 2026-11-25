@@ -31,8 +31,8 @@ const serviceMetadata = {
   },
   'security-escort-services': {
     title: "Security Escort Services",
-    description: "Crown provides professional escort services for secure transportation of valuables, personnel, and high-risk cargo. Our trained escorts ensure safe transit with real-time monitoring and emergency response capabilities.",
-    canonical: "/services/security-escort-services",
+    description: "Crown Security Agencies provides professional Security Escort Services for secure transportation of valuables, personnel, and high-risk cargo. Trained escorts support safe transit with route planning, real-time monitoring, and emergency response coordination.",
+    canonical: "/services/security-escort-services/",
     keywords: ["escort security", "security escort", "valuable transportation", "high-risk cargo", "professional security services"],
   },
   'hospitality-services': {
