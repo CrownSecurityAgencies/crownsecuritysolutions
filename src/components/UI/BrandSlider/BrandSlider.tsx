@@ -4,7 +4,6 @@ import React, { useEffect, useRef } from 'react';
 import styles from './BrandSlider.module.scss';
 import { logos } from '@/data/logos';
 import Image from 'next/image';
-import Link from 'next/link';
 
 type Props = {
   className?: string;
@@ -95,8 +94,7 @@ const BrandSlider: React.FC<Props> = ({ className = '', speed = 0.6, direction =
       <div className={styles.sliderTrack} ref={trackRef}>
         {logos.map((logo, index) => (
           <div className={styles.logo} key={`${logo.name}-${index}`}>
-            <Link href={logo.href || '#'} aria-label={logo.name}>
-              <Image
+            <Image
                 src={logo.src}
                 alt={logo.name}
                 width={1}
@@ -104,7 +102,6 @@ const BrandSlider: React.FC<Props> = ({ className = '', speed = 0.6, direction =
                 className={styles.logoImage}
                 unoptimized
               />
-            </Link>
           </div>
         ))}
       </div>
