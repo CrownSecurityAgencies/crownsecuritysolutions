@@ -27,7 +27,7 @@ export const services: ServiceData[] = [
     label: "SERVICE 01",
     title: "Corporate Park Security Services",
     description:
-      "Crown's Corporate Park Security solutions are designed to protect large office complexes while maintaining a professional and welcoming environment. Our trained personnel manage access points, visitor verification, vehicle checks, and CCTV surveillance with precision and discretion.",
+      "Crown Security Agencies' Corporate Park Security solutions are designed to protect large office complexes while maintaining a professional and welcoming environment. Our trained personnel manage access points, visitor verification, vehicle checks, and CCTV surveillance with precision and discretion.",
     targetSegment: "MNCs, IT Parks, Business Parks, and Corporate Offices.",
     scopeOfWork: [
       "Visitor verification and employee ID checks.",
@@ -46,7 +46,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Corporate Park Security Services",
         description:
-          "Security in a corporate environment is never routine. It requires a strategic balance of vigilance, hospitality, process discipline, and technology. Crown Security Agencies provides tailored Corporate Park Security Services designed to protect people, property, and day-to-day operations with complete professionalism and reliability.\nWith nearly three decades of experience, CSA delivers a structured, compliance driven security framework that supports business continuity and creates a safe and welcoming atmosphere for employees, clients, and visitors.",
+          "Security in a corporate environment is never routine. It requires a strategic balance of vigilance, hospitality, process discipline, and technology. Crown Security Agencies provides tailored Corporate Park Security Services designed to protect people, property, and day-to-day operations with complete professionalism and reliability.\nWith nearly three decades of experience, Crown Security Agencies delivers a structured, compliance driven security framework that supports business continuity and creates a safe and welcoming atmosphere for employees, clients, and visitors.",
       },
       overlay: {
         enabled: true,
@@ -63,7 +63,7 @@ export const services: ServiceData[] = [
       imageSrc: "",
       imageAlt: "",
       paragraphs: [
-        "Corporate parks have continuous foot traffic, multiple access points, sensitive assets, and large operational areas. These factors demand more than basic guarding. They require trained professionals who understand protocol management, emergency readiness, visitor handling, and real-time monitoring.\n\nCSA ensures that every corporate park receives a proactive, technology supported protection system that keeps risks low and confidence high.",
+        "Corporate parks have continuous foot traffic, multiple access points, sensitive assets, and large operational areas. These factors demand more than basic guarding. They require trained professionals who understand protocol management, emergency readiness, visitor handling, and real-time monitoring.\n\nCrown Security Agencies ensures that every corporate park receives a proactive, technology supported protection system that keeps risks low and confidence high.",
       ],
     },
     coreValuesTitle: "Our Expertise in Corporate Park Security",
@@ -126,7 +126,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Why Clients Trust Crown Security Agencies?",
         description:
-          "Organizations prefer CSA because of our commitment to transparency, discipline, and operational excellence.",
+          "Organizations prefer Crown Security Agencies because of our commitment to transparency, discipline, and operational excellence.",
         scopeOfWork: [
           "PSARA certified corporate park security personnel",
           "Customized deployment plans based on every site's layout and risk level",
@@ -151,7 +151,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Understanding Corporate Park Security Needs",
         description:
-          "Corporate parks experience a mix of high footfall, vendor movement, vehicle circulation, and operational activity. These touchpoints create vulnerabilities if not managed with clear SOPs and trained personnel.\n\nCSA identifies these risks early through site surveys and creates protection plans that streamline access, improve visibility, and maintain order throughout the premises.",
+          "Corporate parks experience a mix of high footfall, vendor movement, vehicle circulation, and operational activity. These touchpoints create vulnerabilities if not managed with clear SOPs and trained personnel.\n\nCrown Security Agencies identifies these risks early through site surveys and creates protection plans that streamline access, improve visibility, and maintain order throughout the premises.",
         scopeOfWork: [],
         image: "/images/services/Corporate Park Security Services/2.webp",
         buttons: [
@@ -169,7 +169,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Tailored Security Solutions for Corporate Parks",
         description:
-          "Every corporate park is unique in design and operational flow. CSA builds a custom solution for each site which may include:",
+          "Every corporate park is unique in design and operational flow. Crown Security Agencies builds a custom solution for each site which may include:",
         scopeOfWork: [
           "Perimeter and internal access control planning",
           "Multi tier CCTV integration with centralized monitoring",
@@ -265,7 +265,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Security Escort Services",
         description:
-          "Safe movement of people and high value assets requires meticulous planning, trained personnel, and total accountability. Crown Security Agencies provides professional Security Escort Services designed to protect individuals, sensitive documents, valuables, and consignments throughout their journey with complete reliability and discipline.\n\nWith nearly three decades of operational experience across India, CSA delivers an escort framework supported by trained officers, centralized monitoring, and route based risk assessments that ensure protection at every step.",
+          "Safe movement of people and high value assets requires meticulous planning, trained personnel, and total accountability. Crown Security Agencies provides professional Security Escort Services designed to protect individuals, sensitive documents, valuables, and consignments throughout their journey with complete reliability and discipline.\n\nWith nearly three decades of operational experience across India, Crown Security Agencies delivers an escort framework supported by trained officers, centralized monitoring, and route based risk assessments that ensure protection at every step.",
       },
       overlay: {
         enabled: true,
@@ -408,7 +408,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Certified, Trained, and Reliable Personnel",
         description:
-          "Escort officers undergo stringent verification and training before deployment. CSA ensures that each officer is prepared through:",
+          "Escort officers undergo stringent verification and training before deployment. Crown Security Agencies ensures that each officer is prepared through:",
         scopeOfWork: [
           "Police verification and background checks",
           "Medical fitness assessments",
@@ -474,7 +474,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Hospitality Security Services",
         description:
-          "Hotels, resorts, clubs, and event venues require security that is both vigilant and welcoming. Crown Security Agencies provides Hospitality Security Services designed to maintain guest comfort while protecting people, property, and sensitive operational areas through trained, courteous, and professional security personnel.\n\nWith nearly three decades of experience in hospitality environments, CSA ensures that every guest feels safe, every zone remains controlled, and every operation runs smoothly without interrupting the customer experience.",
+          "Hotels, resorts, clubs, and event venues require security that is both vigilant and welcoming. Crown Security Agencies provides Hospitality Security Services designed to maintain guest comfort while protecting people, property, and sensitive operational areas through trained, courteous, and professional security personnel.\n\nWith nearly three decades of experience in hospitality environments, Crown Security Agencies ensures that every guest feels safe, every zone remains controlled, and every operation runs smoothly without interrupting the customer experience.",
       },
       overlay: {
         enabled: true,
@@ -491,7 +491,7 @@ export const services: ServiceData[] = [
       imageSrc: "/images/services/Hospitality Services/hospital_service.webp",
       imageAlt: "Hospitality Services",
       paragraphs: [
-        "Hospitality spaces host guests, staff, vendors, event organizers, and large crowds throughout the day. These environments demand security teams who are alert, well groomed, and capable of handling unexpected situations with professionalism and discretion.\n\nCSA delivers a security framework that protects your property while reinforcing the premium service standards your brand represents.",
+        "Hospitality spaces host guests, staff, vendors, event organizers, and large crowds throughout the day. These environments demand security teams who are alert, well groomed, and capable of handling unexpected situations with professionalism and discretion.\n\nCrown Security Agencies delivers a security framework that protects your property while reinforcing the premium service standards your brand represents.",
       ],
     },
     coreValuesData: [
@@ -557,7 +557,7 @@ export const services: ServiceData[] = [
           "Compliance driven operations across all deployments",
         ],
         conclusion:
-          "CSA ensures safety without compromising the guest experience.",
+          "Crown Security Agencies ensures safety without compromising the guest experience.",
         image: "/images/services/Hospitality Services/hospital_service.webp",
         buttons: [
           {
@@ -621,7 +621,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Certified, Trained, and Reliable Personnel",
         description:
-          "Hospitality security requires guards who are confident, courteous, and trained in professional conduct. CSA ensures readiness through:",
+          "Hospitality security requires guards who are confident, courteous, and trained in professional conduct. Crown Security Agencies ensures readiness through:",
         scopeOfWork: [
           "Police verification and background checks",
           "Medical fitness assessments",
@@ -807,7 +807,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Tailored Security Solutions for Industrial Sites",
         description:
-          "CSA delivers a structured protection system that is adapted to the needs of each industrial facility.",
+          "Crown Security Agencies delivers a structured protection system that is adapted to the needs of each industrial facility.",
         scopeOfWork: [
           "Entry and exit gate pass management",
           "Vehicle inspection and goods verification",
@@ -835,7 +835,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Certified, Trained, and Reliable Personnel",
         description:
-          "Industrial security requires professionals who understand safety norms and factory discipline. CSA ensures that every guard is trained through:",
+          "Industrial security requires professionals who understand safety norms and factory discipline. Crown Security Agencies ensures that every guard is trained through:",
         scopeOfWork: [
           "Police verification and background checks",
           "Medical fitness evaluations",
@@ -1402,7 +1402,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Why Clients Trust Crown Security Agencies?",
         description:
-          "Residential communities prefer CSA because our security teams uphold safety while maintaining a warm and respectful presence.",
+          "Residential communities prefer Crown Security Agencies because our security teams uphold safety while maintaining a warm and respectful presence.",
         scopeOfWork: [
           "Guards trained in etiquette, family interaction, and privacy protocols",
           "Strong understanding of community operations",
@@ -1476,7 +1476,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Certified, Trained, and Reliable Personnel",
         description:
-          "Residential security requires guards who are alert, polite, and responsible. CSA ensures this through:",
+          "Residential security requires guards who are alert, polite, and responsible. Crown Security Agencies ensures this through:",
         scopeOfWork: [
           "Police verification and background screening",
           "Medical fitness assessments",
@@ -1560,7 +1560,7 @@ export const services: ServiceData[] = [
       imageSrc: "/images/services/School Security/s4.webp",
       imageAlt: "School Security",
       paragraphs: [
-        "Schools are high responsibility environments with constant movement of students, parents, faculty members, vendors, and transport vehicles. Without trained guards and controlled entry systems, risks such as unauthorized access, student safety lapses, and emergency handling issues can arise.\n\nCSA ensures that every campus has a security framework that supports safety without creating fear or discomfort for children.",
+        "Schools are high responsibility environments with constant movement of students, parents, faculty members, vendors, and transport vehicles. Without trained guards and controlled entry systems, risks such as unauthorized access, student safety lapses, and emergency handling issues can arise.\n\nCrown Security Agencies ensures that every campus has a security framework that supports safety without creating fear or discomfort for children.",
       ],
     },
     coreValuesData: [
@@ -1774,7 +1774,7 @@ export const services: ServiceData[] = [
       imageSrc: "/images/services/Event Security/1.webp",
       imageAlt: "Event Security",
       paragraphs: [
-        "Events bring together large numbers of people in dynamic environments where safety risks can emerge quickly. From entry management to crowd control, emergency response to VIP protection, every aspect requires trained professionals who can anticipate needs and respond effectively.\n\nCSA ensures that every event has a security framework that maintains safety while preserving the positive atmosphere that guests expect.",
+        "Events bring together large numbers of people in dynamic environments where safety risks can emerge quickly. From entry management to crowd control, emergency response to VIP protection, every aspect requires trained professionals who can anticipate needs and respond effectively.\n\nCrown Security Agencies ensures that every event has a security framework that maintains safety while preserving the positive atmosphere that guests expect.",
       ],
     },
     coreValuesData: [
@@ -1830,7 +1830,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Why Clients Trust Crown Security Agencies?",
         description:
-          "Event organizers prefer CSA because our teams bring professionalism, preparation, and seamless coordination to every assignment.",
+          "Event organizers prefer Crown Security Agencies because our teams bring professionalism, preparation, and seamless coordination to every assignment.",
         scopeOfWork: [
           "Guards trained specifically for high crowd and high-pressure environments",
           "Strong communication and coordination with event teams",
@@ -1840,7 +1840,7 @@ export const services: ServiceData[] = [
           "Ability to scale manpower quickly based on event size",
         ],
         conclusion:
-          "CSA ensures that events remain safe, organized, and enjoyable for every attendee.",
+          "Crown Security Agencies ensures that events remain safe, organized, and enjoyable for every attendee.",
         image: "/images/services/Event Security/1.webp",
         buttons: [
           {
@@ -1902,7 +1902,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Certified, Trained, and Reliable Personnel",
         description:
-          "Event security requires guards who are attentive, polite, and capable of handling high activity situations. CSA ensures readiness through:",
+          "Event security requires guards who are attentive, polite, and capable of handling high activity situations. Crown Security Agencies ensures readiness through:",
         scopeOfWork: [
           "Police verification and background checks",
           "Medical fitness assessments",
@@ -1987,7 +1987,7 @@ export const services: ServiceData[] = [
       imageSrc: "/images/services/Security Convoy Services/Convoy_2.webp",
       imageAlt: "Security Convoy Services",
       paragraphs: [
-        "Sensitive or high value movements face risks related to route conditions, theft attempts, road incidents, and unpredictable external factors. Without trained convoy teams and structured protocols, the chances of exposure increase significantly.\n\nCSA ensures that every movement is planned, monitored, and executed with complete control and accountability.",
+        "Sensitive or high value movements face risks related to route conditions, theft attempts, road incidents, and unpredictable external factors. Without trained convoy teams and structured protocols, the chances of exposure increase significantly.\n\nCrown Security Agencies ensures that every movement is planned, monitored, and executed with complete control and accountability.",
       ],
     },
     coreValuesData: [
@@ -2229,7 +2229,7 @@ export const services: ServiceData[] = [
         id: "driver_support_coordination",
         title: "Coordination with Drivers & Support Teams",
         description:
-          "CSA ensures coordinated communication between security officers, drivers, and personal staff for seamless movement and minimal delays.",
+          "Crown Security Agencies ensures coordinated communication between security officers, drivers, and personal staff for seamless movement and minimal delays.",
         iconColor: "#EF4444",
       },
       {
@@ -2332,7 +2332,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Certified, Trained, and Reliable Personnel",
         description:
-          "VIP protection demands personnel who are alert, composed, and trained to maintain client dignity at all times. CSA ensures readiness through:",
+          "VIP protection demands personnel who are alert, composed, and trained to maintain client dignity at all times. Crown Security Agencies ensures readiness through:",
         scopeOfWork: [
           "Police verification and thorough background checks",
           "Medical fitness assessments",
@@ -2681,7 +2681,7 @@ export const services: ServiceData[] = [
     ],
     coreValuesTitle: "Our Expertise in Access Control Management",
     coreValuesSubtitle:
-      "CSA delivers a well structured access management system supported by personnel who are trained to handle both digital and manual processes.",
+      "Crown Security Agencies delivers a well structured access management system supported by personnel who are trained to handle both digital and manual processes.",
     serviceSectionData: [
       {
         label: "",
@@ -2847,7 +2847,7 @@ export const services: ServiceData[] = [
       imageSrc: "/images/services/Fire_Safety/1.webp",
       imageAlt: "Fire Safety & Emergency Drill Support",
       paragraphs: [
-        "Fires and emergency situations escalate quickly if not managed with trained personnel and clear procedures. Many incidents can be prevented or contained when guards are equipped with the right knowledge and when regular drills familiarise staff and visitors with evacuation steps.\n\nCSA ensures that every site has the training, readiness, and support needed to manage emergencies with confidence and discipline.",
+        "Fires and emergency situations escalate quickly if not managed with trained personnel and clear procedures. Many incidents can be prevented or contained when guards are equipped with the right knowledge and when regular drills familiarise staff and visitors with evacuation steps.\n\nCrown Security Agencies ensures that every site has the training, readiness, and support needed to manage emergencies with confidence and discipline.",
       ],
     },
     coreValuesData: [
@@ -3045,7 +3045,7 @@ export const services: ServiceData[] = [
       content: {
         title: "Gate Pass and Vehicle Movement Verification",
         description:
-          "Accurate control of vehicle movement and material flow is essential for logistics hubs, factories, and industrial sites. Crown Security Agencies provides Gate Pass and Vehicle Movement Verification Services that ensure every entry and exit is recorded, verified, and fully compliant with client documentation and operational protocols.\n\nWith nearly three decades of experience in high movement environments, CSA delivers a disciplined approach that prevents unauthorized removal of materials and maintains complete transparency across inbound and outbound activities.",
+          "Accurate control of vehicle movement and material flow is essential for logistics hubs, factories, and industrial sites. Crown Security Agencies provides Gate Pass and Vehicle Movement Verification Services that ensure every entry and exit is recorded, verified, and fully compliant with client documentation and operational protocols.\n\nWith nearly three decades of experience in high movement environments, Crown Security Agencies delivers a disciplined approach that prevents unauthorized removal of materials and maintains complete transparency across inbound and outbound activities.",
       },
       overlay: {
         enabled: true,
@@ -3062,7 +3062,7 @@ export const services: ServiceData[] = [
       imageSrc: "",
       imageAlt: "",
       paragraphs: [
-        "Industrial and logistics facilities manage large volumes of vehicles, raw materials, finished goods, and vendor activity on a daily basis. Without strict verification at the gate, risks such as material theft, shipment discrepancies, and unauthorized access can compromise operations.\n\nCSA ensures accuracy at the first point of control by combining trained guards, detailed checking procedures, and clear documentation standards.",
+        "Industrial and logistics facilities manage large volumes of vehicles, raw materials, finished goods, and vendor activity on a daily basis. Without strict verification at the gate, risks such as material theft, shipment discrepancies, and unauthorized access can compromise operations.\n\nCrown Security Agencies ensures accuracy at the first point of control by combining trained guards, detailed checking procedures, and clear documentation standards.",
       ],
     },
     coreValuesData: [
@@ -3194,7 +3194,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Certified, Trained, and Reliable Personnel",
         description:
-          "Effective gate control requires guards who are detail oriented, disciplined, and confident in handling documentation. CSA ensures readiness through:",
+          "Effective gate control requires guards who are detail oriented, disciplined, and confident in handling documentation. Crown Security Agencies ensures readiness through:",
         scopeOfWork: [
           "Police verification and background checks",
           "Medical fitness assessments",
@@ -3283,7 +3283,7 @@ export const services: ServiceData[] = [
         "/images/services/Cargo Integrity Audits (Logistics Security)/1.webp",
       imageAlt: "Cargo Integrity Audits (Logistics Security)",
       paragraphs: [
-        "Cargo can be exposed to risks such as tampering, pilferage, seal breakage, incorrect documentation, or mishandling during transit. Even small discrepancies can create delays, insurance issues, and financial impact.\n\nCSA ensures that every shipment is inspected with accuracy, documented thoroughly, and monitored at key transfer points to maintain complete accountability.",
+        "Cargo can be exposed to risks such as tampering, pilferage, seal breakage, incorrect documentation, or mishandling during transit. Even small discrepancies can create delays, insurance issues, and financial impact.\n\nCrown Security Agencies ensures that every shipment is inspected with accuracy, documented thoroughly, and monitored at key transfer points to maintain complete accountability.",
       ],
     },
     coreValuesData: [
@@ -3339,7 +3339,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Why Clients Trust Crown Security Agencies?",
         description:
-          "Logistics and industrial companies prefer CSA because our audit process improves reliability and transparency across cargo movement.",
+          "Logistics and industrial companies prefer Crown Security Agencies because our audit process improves reliability and transparency across cargo movement.",
         scopeOfWork: [
           "Trained security personnel familiar with logistics documentation",
           "Accurate verification of seals, counts, and shipment details",
@@ -3349,7 +3349,7 @@ export const services: ServiceData[] = [
           "Experience with high-value and sensitive consignments",
         ],
         conclusion:
-          "CSA ensures cargo is monitored with discipline at every critical checkpoint.",
+          "Crown Security Agencies ensures cargo is monitored with discipline at every critical checkpoint.",
         image:
           "/images/services/Cargo Integrity Audits (Logistics Security)/1.webp",
         buttons: [
@@ -3386,7 +3386,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Tailored Cargo Integrity Audit Solutions",
         description:
-          "CSA delivers customized audit systems suitable for warehouses, distribution centres, logistics hubs, and industrial facilities.",
+          "Crown Security Agencies delivers customized audit systems suitable for warehouses, distribution centres, logistics hubs, and industrial facilities.",
         scopeOfWork: [
           "Seal and manifest verification",
           "Loading and unloading supervision",
@@ -3415,7 +3415,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Certified, Trained, and Reliable Personnel",
         description:
-          "Cargo audits require guards who are detail oriented and trained to understand documentation and handling procedures. CSA ensures readiness through:",
+          "Cargo audits require guards who are detail oriented and trained to understand documentation and handling procedures. Crown Security Agencies ensures readiness through:",
         scopeOfWork: [
           "Police verification and background checks",
           "Medical fitness certification",
