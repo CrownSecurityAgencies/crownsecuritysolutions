@@ -11,11 +11,12 @@ import EndCta from '@/components/Sections/EndCta/EndCta';
 export const revalidate = 3600;
 
 export const metadata = {
+  title: "Security Services",
   alternates: {
     canonical: "/services",
   },
   openGraph: {
-    title: "Security Services | Corporate, Industrial & Residential",
+    title: "Security Services",
     description: "Explore Crown Security Agencies' full range of security services, including corporate, industrial, residential, logistics, and event security.",
     url: "/services",
     images: [
@@ -28,7 +29,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Security Services | Corporate, Industrial & Residential",
+    title: "Security Services",
     description: "Explore Crown Security Agencies' full range of security services, including corporate, industrial, residential, logistics, and event security.",
     images: ["/images/services/Corporate Park Security Services/1.webp"],
   },
