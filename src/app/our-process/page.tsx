@@ -17,7 +17,7 @@ export const metadata = {
     canonical: "/our-process",
   },
   openGraph: {
-    title: "Our Security Process",
+    title: "Our Security Process | Crown Security Agencies",
     description: "Discover Crown Security Agencies' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
     url: "/our-process",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Our Security Process",
+    title: "Our Security Process | Crown Security Agencies",
     description: "Discover Crown Security Agencies' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
     images: ["/images/our-process-hero-bg.webp"],
   },
