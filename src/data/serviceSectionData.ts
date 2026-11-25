@@ -61,7 +61,7 @@ export const serviceData: ServiceData[] = [
         variant: "primary",
         iconBgColor: "#1a1a1a",
         textColor: "#1a1a1a",
-        href: "/services/escort-services"
+        href: "/services/security-escort-services"
       }
     ]
   },
