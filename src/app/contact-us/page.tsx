@@ -12,7 +12,7 @@ export const metadata = {
     canonical: "/contact-us",
   },
   openGraph: {
-    title: "Contact Us",
+    title: "Contact Us | Crown Security Agencies",
     description: "Contact Crown Security Agencies for professional security services, consultations, and customized security solutions.",
     url: "/contact-us",
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Contact Us",
+    title: "Contact Us | Crown Security Agencies",
     description: "Contact Crown Security Agencies for professional security services, consultations, and customized security solutions.",
     images: ["/images/home/home-hero-bg.webp"],
   },
