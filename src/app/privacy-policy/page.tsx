@@ -5,14 +5,14 @@ import styles from '@/styles/legal-page.module.scss';
 export const revalidate = 86400;
 
 export const metadata = {
-  title: "Privacy Policy | Crown Security Agencies",
+  title: "Privacy Policy",
   description: "Review Crown Security Agencies' privacy policy to understand how we collect, use, and protect your personal information.",
   keywords: ["privacy policy", "data protection", "personal information", "privacy terms", "data security", "information protection"],
   alternates: {
     canonical: "/privacy-policy",
   },
   openGraph: {
-    title: "Privacy Policy | Crown Security Agencies",
+    title: "Privacy Policy",
     description: "Review Crown Security Agencies' privacy policy to understand how we collect, use, and protect your personal information.",
     url: "/privacy-policy",
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Privacy Policy | Crown Security Agencies",
+    title: "Privacy Policy",
     description: "Review Crown Security Agencies' privacy policy to understand how we collect, use, and protect your personal information.",
     images: ["/images/home/home-hero-bg.webp"],
   },
