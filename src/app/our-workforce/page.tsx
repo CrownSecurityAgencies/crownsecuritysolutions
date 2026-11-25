@@ -24,7 +24,7 @@ export const metadata = {
     canonical: "/our-workforce",
   },
   openGraph: {
-    title: "Our Workforce",
+    title: "Our Workforce | Crown Security Agencies",
     description: "Meet our trained and certified security workforce dedicated to maintaining safety, professionalism, and operational excellence.",
     url: "/our-workforce",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Our Workforce",
+    title: "Our Workforce | Crown Security Agencies",
     description: "Meet our trained and certified security workforce dedicated to maintaining safety, professionalism, and operational excellence.",
     images: ["/images/our-workforce-hero-bg.webp"],
   },
