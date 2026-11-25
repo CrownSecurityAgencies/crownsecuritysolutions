@@ -28,12 +28,13 @@ const Header: React.FC = () => {
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
           <Image
-            src="/logo.png"
-            alt="Crown Security Agencies"
-            width={171}
-            height={40}
+            src="/images/css_logo.svg"
+            alt="Crown Security Agencies logo"
+            width={38}
+            height={38}
             priority
           />
+          <span className={styles.logoText}>Crown Security Agencies</span>
         </Link>
 
         <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
