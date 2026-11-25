@@ -3,7 +3,7 @@ import CertificatesSection from "@/components/Sections/CertificatesSection/Certi
 import "./page.module.scss";
 
 export const metadata: Metadata = {
-  title: "PSARA & ISO Certified Security",
+  title: "PSARA & ISO Certified",
   description:
     "Crown Security Agencies is a PSARA licensed and ISO certified security guard company offering compliant, background-verified security services across India.",
   alternates: {
