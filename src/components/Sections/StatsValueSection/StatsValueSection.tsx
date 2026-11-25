@@ -105,7 +105,7 @@ const StatsValueSection: React.FC = () => {
                   Discover why we are the<br />
                   best at what we do
                 </h3>
-                <a href="/about" className={styles.ctaLink}>
+                <a href="/about/" className={styles.ctaLink}>
                   <span>Learn more</span>
                   <svg
                     width="16"
