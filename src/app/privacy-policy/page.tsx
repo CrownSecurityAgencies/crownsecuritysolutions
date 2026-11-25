@@ -12,7 +12,7 @@ export const metadata = {
     canonical: "/privacy-policy",
   },
   openGraph: {
-    title: "Privacy Policy",
+    title: "Privacy Policy | Crown Security Agencies",
     description: "Review Crown Security Agencies' privacy policy to understand how we collect, use, and protect your personal information.",
     url: "/privacy-policy",
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Privacy Policy",
+    title: "Privacy Policy | Crown Security Agencies",
     description: "Review Crown Security Agencies' privacy policy to understand how we collect, use, and protect your personal information.",
     images: ["/images/home/home-hero-bg.webp"],
   },
