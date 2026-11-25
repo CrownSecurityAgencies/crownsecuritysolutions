@@ -58,11 +58,11 @@ export const SPECIALIZED_SERVICES_DATA: SpecializedServicesData = {
       linkUrl: "/services/school-security",
     },
     {
-      title: "Escort Services",
+      title: "Security Escort Services",
       description:
         "Secure movement of high-value assets, personnel, and consignments with route planning, GPS tracking, and armed/unarmed escorts.",
       imageSrc: "/images/services/updated/service-05.jpg",
-      imageAlt: "Escort Services",
+      imageAlt: "Security Escort Services",
       linkText: "Learn More",
       linkUrl: "/services/escort-services",
     },
