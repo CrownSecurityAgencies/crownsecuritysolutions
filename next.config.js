@@ -8,7 +8,12 @@ const nextConfig = {
     return [
       {
         source: '/services/escort-services',
-        destination: '/services/security-escort-services',
+        destination: '/services/security-escort-services/',
+        permanent: true,
+      },
+      {
+        source: '/services/escort-services/',
+        destination: '/services/security-escort-services/',
         permanent: true,
       },
       {
