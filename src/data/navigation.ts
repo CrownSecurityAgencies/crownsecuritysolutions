@@ -14,7 +14,7 @@ export const navigationItems: NavItem[] = [
   },
   {
     label: "About",
-    href: "/about",
+    href: "/about/",
   },
   {
     label: "Our Process",
