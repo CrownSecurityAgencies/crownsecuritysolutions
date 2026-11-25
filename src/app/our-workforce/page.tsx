@@ -17,14 +17,14 @@ import EndCta from '@/components/Sections/EndCta/EndCta';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "Our Workforce | Trained & Certified Security Personnel",
+  title: "Our Workforce",
   description: "Meet our trained and certified security workforce dedicated to maintaining safety, professionalism, and operational excellence.",
   keywords: ["security workforce", "trained security personnel", "certified security guards", "security team", "professional security"],
   alternates: {
     canonical: "/our-workforce",
   },
   openGraph: {
-    title: "Our Workforce | Trained & Certified Security Personnel",
+    title: "Our Workforce",
     description: "Meet our trained and certified security workforce dedicated to maintaining safety, professionalism, and operational excellence.",
     url: "/our-workforce",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Our Workforce | Trained & Certified Security Personnel",
+    title: "Our Workforce",
     description: "Meet our trained and certified security workforce dedicated to maintaining safety, professionalism, and operational excellence.",
     images: ["/images/our-workforce-hero-bg.webp"],
   },
