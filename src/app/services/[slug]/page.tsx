@@ -208,7 +208,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       canonical: metadata.canonical,
     },
     openGraph: {
-      title: metadata.title,
+      title: `${metadata.title} | Crown Security Agencies`,
       description: metadata.description,
       url: metadata.canonical,
       images: [
@@ -221,7 +221,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       ],
     },
     twitter: {
-      title: metadata.title,
+      title: `${metadata.title} | Crown Security Agencies`,
       description: metadata.description,
       images: [service.image],
     },
