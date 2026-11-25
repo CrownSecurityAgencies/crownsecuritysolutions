@@ -5,14 +5,14 @@ import styles from './page.module.scss';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "Contact Crown Security Agencies | Get in Touch Today",
+  title: "Contact Us",
   description: "Contact Crown Security Agencies for professional security services, consultations, and customized security solutions.",
   keywords: ["contact us", "security consultation", "security services", "contact security company", "professional security", "security solutions"],
   alternates: {
     canonical: "/contact-us",
   },
   openGraph: {
-    title: "Contact Crown Security Agencies | Get in Touch Today",
+    title: "Contact Us",
     description: "Contact Crown Security Agencies for professional security services, consultations, and customized security solutions.",
     url: "/contact-us",
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Contact Crown Security Agencies | Get in Touch Today",
+    title: "Contact Us",
     description: "Contact Crown Security Agencies for professional security services, consultations, and customized security solutions.",
     images: ["/images/home/home-hero-bg.webp"],
   },
