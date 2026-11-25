@@ -12,7 +12,6 @@ import BrandsSlider from '@/components/Sections/BrandsSlider/BrandsSlider';
 import Testimonials from '@/components/Sections/Testimonials/Testimonials';
 import StackedScroll from '@/components/UI/StackedScroll/StackedScroll';
 import { ABOUT_DATA } from '@/data/about';
-import { JsonLd } from '@/components/JsonLd/JsonLd';
 import EndCta from '@/components/Sections/EndCta/EndCta';
 
 // Enable SSG with ISR (revalidate every 1 hour)
@@ -68,7 +67,6 @@ export default function HomePage() {
         <Testimonials />
         <EndCta />
       </div>
-      <JsonLd />
     </>
   );
 }
