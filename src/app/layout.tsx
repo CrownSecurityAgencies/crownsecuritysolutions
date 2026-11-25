@@ -30,7 +30,6 @@ export const metadata = {
   formatDetection: {
     email: false,
     address: false,
-    telephone: false,
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://crownsecuritysolutions.com"),
   alternates: {
