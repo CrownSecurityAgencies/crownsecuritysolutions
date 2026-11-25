@@ -64,7 +64,7 @@ export const SPECIALIZED_SERVICES_DATA: SpecializedServicesData = {
       imageSrc: "/images/services/updated/service-05.jpg",
       imageAlt: "Security Escort Services",
       linkText: "Learn More",
-      linkUrl: "/services/escort-services",
+      linkUrl: "/services/security-escort-services",
     },
     {
       title: "Security Convoy Services",
