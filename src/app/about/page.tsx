@@ -28,7 +28,7 @@ export const metadata = {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Us",
+    title: "About Us | Crown Security Agencies",
     description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
     url: "/about",
     images: [
@@ -41,7 +41,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "About Us",
+    title: "About Us | Crown Security Agencies",
     description: "Learn about Crown Security Agencies, our experience, values, and commitment to delivering professional and dependable security services.",
     images: ["/images/about/about-hero-bg.webp"],
   },
