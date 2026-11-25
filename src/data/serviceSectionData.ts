@@ -22,7 +22,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 01",
     title: "Corporate Park Security",
-    description: "Crown’s Corporate Park Security solutions are designed to protect large office complexes while maintaining a professional and welcoming environment. Our trained personnel manage access points, visitor verification, vehicle checks, and CCTV surveillance with precision and discretion. Every site operates on clearly defined SOPs, regular audits, and emergency response drills to ensure smooth business continuity. With a customer-focused approach, we combine strong deterrence with courteous service that ensures all employees, clients, and visitors feel safe and valued within your premises.",
+    description: "Crown Security Agencies’ Corporate Park Security solutions are designed to protect large office complexes while maintaining a professional and welcoming environment. Our trained personnel manage access points, visitor verification, vehicle checks, and CCTV surveillance with precision and discretion. Every site operates on clearly defined SOPs, regular audits, and emergency response drills to ensure smooth business continuity. With a customer-focused approach, we combine strong deterrence with courteous service that ensures all employees, clients, and visitors feel safe and valued within your premises.",
     targetSegment: "MNCs, IT Parks, Business Parks, and Corporate Offices.",
     scopeOfWork: [
       "Visitor verification and employee ID checks.",
@@ -45,7 +45,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 02",
     title: "Security Escort Services",
-    description: "Crown’s Security Escort Services provide end-to-end protection for high-value personnel, cash, documents, or sensitive consignments. Each movement is planned with detailed route mapping, risk assessments, and timed check-ins to minimize exposure. Our escort teams are trained in close protection, communication protocols, and contingency handling, ensuring security without disrupting operations. Whether it’s a single transfer or a recurring route, we maintain chain-of-custody documentation and real-time tracking that offers safety, reliability, and complete accountability.",
+    description: "Crown Security Agencies’ Security Escort Services provide end-to-end protection for high-value personnel, cash, documents, or sensitive consignments. Each movement is planned with detailed route mapping, risk assessments, and timed check-ins to minimize exposure. Our escort teams are trained in close protection, communication protocols, and contingency handling, ensuring security without disrupting operations. Whether it’s a single transfer or a recurring route, we maintain chain-of-custody documentation and real-time tracking that offers safety, reliability, and complete accountability.",
     targetSegment: "Banks, Logistics Firms, High-Profile Individuals, and Corporations.",
     scopeOfWork: [
       "Route planning and risk assessment.",
@@ -91,7 +91,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 04",
     title: "Industrial Security",
-    description: "Crown’s Industrial Security programs safeguard factories, plants, and high-risk industrial zones with a robust, compliance-driven framework. Our teams are trained in hazard awareness, perimeter defence, permit-to-work procedures, and coordination with on-site safety departments. We conduct continuous inspections, vehicle and goods verification, and maintain detailed incident documentation to ensure audit readiness. By integrating manpower with surveillance systems and safety controls, we protect people, processes, assets and keep operations running securely and efficiently.",
+    description: "Crown Security Agencies’ Industrial Security programs safeguard factories, plants, and high-risk industrial zones with a robust, compliance-driven framework. Our teams are trained in hazard awareness, perimeter defence, permit-to-work procedures, and coordination with on-site safety departments. We conduct continuous inspections, vehicle and goods verification, and maintain detailed incident documentation to ensure audit readiness. By integrating manpower with surveillance systems and safety controls, we protect people, processes, assets and keep operations running securely and efficiently.",
     targetSegment: "Factories, Manufacturing Units, Industrial Estates, and Warehouses.",
     scopeOfWork: [
       "Perimeter guarding and gate management.",
@@ -114,7 +114,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 05",
     title: "Logistics Security",
-    description: "We provide comprehensive Logistics Security solutions that protect goods from origin to destination. Crown’s security personnel oversee warehouse operations, loading docks, and vehicle movements with strict verification and monitoring systems. For high-value or sensitive cargo, we add armed escorts, GPS tracking, and sealed-shipment monitoring to ensure zero diversion or loss. Our procedures integrate seamlessly with your logistics network, giving complete visibility, minimising inventory loss and unauthorized movement of goods, and smooth operational flow across the supply chain.",
+    description: "We provide comprehensive Logistics Security solutions that protect goods from origin to destination. Crown Security Agencies’ security personnel oversee warehouse operations, loading docks, and vehicle movements with strict verification and monitoring systems. For high-value or sensitive cargo, we add armed escorts, GPS tracking, and sealed-shipment monitoring to ensure zero diversion or loss. Our procedures integrate seamlessly with your logistics network, giving complete visibility, minimising inventory loss and unauthorized movement of goods, and smooth operational flow across the supply chain.",
     targetSegment: "Logistics Hubs, E-Commerce Warehouses, Transport Companies, and Distribution Centers.",
     scopeOfWork: [
       "Warehouse and dockside guarding.",
@@ -137,7 +137,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 06",
     title: "Mall Security",
-    description: "Crown’s Mall Security service ensures that every visitor enjoys a safe, comfortable shopping experience while retailers operate without disruption. Our personnel are trained in access control, emergency response, first aid, and crowd management, working closely with mall administration and local authorities. We provide 24/7 surveillance, event support, and loss prevention measures designed for large public environments. Professional yet approachable, our team embodies the perfect balance of safety, hospitality, and vigilance.",
+    description: "Crown Security Agencies’ Mall Security service ensures that every visitor enjoys a safe, comfortable shopping experience while retailers operate without disruption. Our personnel are trained in access control, emergency response, first aid, and crowd management, working closely with mall administration and local authorities. We provide 24/7 surveillance, event support, and loss prevention measures designed for large public environments. Professional yet approachable, our team embodies the perfect balance of safety, hospitality, and vigilance.",
     targetSegment: "Shopping Malls, Retail Complexes, and Entertainment Centers.",
     scopeOfWork: [
       "Access control and bag checks at entry points.",
@@ -183,7 +183,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 08",
     title: "School Security",
-    description: "Crown’s School Security service is designed to create a safe, nurturing environment for students, staff, and parents. We implement controlled entry systems, visitor ID checks, and supervised patrols throughout school hours. Guards are carefully trained in child protection, first response, and crisis management to ensure safety with empathy. Working hand-in-hand with administrators, we develop customized emergency plans and conduct safety drills, keeping the focus on learning, care, and confidence.",
+    description: "Crown Security Agencies’ School Security service is designed to create a safe, nurturing environment for students, staff, and parents. We implement controlled entry systems, visitor ID checks, and supervised patrols throughout school hours. Guards are carefully trained in child protection, first response, and crisis management to ensure safety with empathy. Working hand-in-hand with administrators, we develop customized emergency plans and conduct safety drills, keeping the focus on learning, care, and confidence.",
     targetSegment: "Schools, Colleges, and Educational Institutions.",
     scopeOfWork: [
       "Controlled entry and visitor screening.",
@@ -206,7 +206,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 09",
     title: "Event Security",
-    description: "Crown’s Event Security services are designed to handle gatherings of any scale, from corporate conferences and exhibitions to concerts and private functions. Our trained personnel manage entry control, crowd flow, stage and backstage access, and emergency response coordination. Each deployment is tailored to the event layout and risk level, with on-ground supervisors ensuring seamless execution. We focus on maintaining safety while preserving the atmosphere of the event, ensuring that guests, organizers, and VIPs can enjoy a secure and organized experience.",
+    description: "Crown Security Agencies’ Event Security services are designed to handle gatherings of any scale, from corporate conferences and exhibitions to concerts and private functions. Our trained personnel manage entry control, crowd flow, stage and backstage access, and emergency response coordination. Each deployment is tailored to the event layout and risk level, with on-ground supervisors ensuring seamless execution. We focus on maintaining safety while preserving the atmosphere of the event, ensuring that guests, organizers, and VIPs can enjoy a secure and organized experience.",
     targetSegment: "Corporate Events, Exhibitions, Concerts, Weddings, and Public Gatherings.",
     scopeOfWork: [
       "Access control and guest verification.",
@@ -252,7 +252,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 11",
     title: "VIP Protection / Personal Escort Security",
-    description: "Crown’s VIP Protection division provides discreet and reliable close protection for executives, dignitaries, and high-profile individuals. Our security officers are professionally trained in threat assessment, movement control, and emergency response. Every assignment is planned with route analysis, vehicle coordination, and standby contingencies. We balance strong personal protection with tact and discretion, ensuring safety without intruding on comfort or privacy.",
+    description: "Crown Security Agencies’ VIP Protection division provides discreet and reliable close protection for executives, dignitaries, and high-profile individuals. Our security officers are professionally trained in threat assessment, movement control, and emergency response. Every assignment is planned with route analysis, vehicle coordination, and standby contingencies. We balance strong personal protection with tact and discretion, ensuring safety without intruding on comfort or privacy.",
     targetSegment: "Executives, Diplomats, Celebrities, and High-Profile Individuals.",
     scopeOfWork: [
       "Threat assessment and advanced route planning.",
@@ -296,7 +296,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 13",
     title: "Access Control Management",
-    description: "Crown’s Access Control Management system ensures that only authorized individuals gain entry to your premises. Security personnel are trained to handle digital or manual access systems, maintain visitor logs, and verify identification credentials. Combined with CCTV oversight, this layered system helps prevent unauthorized entry and enhances accountability. We customize access protocols based on client operations, whether for offices, industrial sites, or gated communities.",
+    description: "Crown Security Agencies’ Access Control Management system ensures that only authorized individuals gain entry to your premises. Security personnel are trained to handle digital or manual access systems, maintain visitor logs, and verify identification credentials. Combined with CCTV oversight, this layered system helps prevent unauthorized entry and enhances accountability. We customize access protocols based on client operations, whether for offices, industrial sites, or gated communities.",
     targetSegment: "Corporate Parks, Industrial Sites, and Residential Complexes",
     scopeOfWork: [
       "Visitor registration and ID verification.",
@@ -384,7 +384,7 @@ export const serviceData: ServiceData[] = [
   {
     label: "SERVICE 17",
     title: "Perimeter Patrolling & PPE Compliance (Industrial Security)",
-    description: "For industrial and manufacturing sites, Crown integrates perimeter patrols with safety compliance monitoring. Our guards perform routine checks along boundary lines and restricted areas, ensuring there are no breaches or safety lapses. They also help enforce Personal Protective Equipment (PPE) usage, coordinating with safety officers to maintain workplace safety standards. This combination of vigilance and compliance keeps industrial operations running safely and efficiently.",
+    description: "For industrial and manufacturing sites, Crown Security Agencies integrates perimeter patrols with safety compliance monitoring. Our guards perform routine checks along boundary lines and restricted areas, ensuring there are no breaches or safety lapses. They also help enforce Personal Protective Equipment (PPE) usage, coordinating with safety officers to maintain workplace safety standards. This combination of vigilance and compliance keeps industrial operations running safely and efficiently.",
     targetSegment: "Manufacturing Plants, Industrial Facilities, and Energy Sites.",
     scopeOfWork: [
       "Regular perimeter checks and restricted zone monitoring.",
