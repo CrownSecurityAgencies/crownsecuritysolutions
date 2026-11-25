@@ -23,11 +23,22 @@
   align-items: center;
   flex-shrink: 0;
   z-index: 1001;
+  gap: 0.6rem;
+  text-decoration: none;
 
   img {
     height: clamp(2rem, 1.769rem + 1.026vw, 3rem);
     width: auto;
   }
+}
+
+.logoText {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(0.9rem, 0.82rem + 0.35vw, 1.15rem);
+  font-weight: 600;
+  white-space: nowrap;
+  letter-spacing: 0.2px;
 }
 
 .nav {
