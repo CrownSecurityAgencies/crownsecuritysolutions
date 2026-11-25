@@ -15,7 +15,7 @@ export const metadata = {
     canonical: "/careers",
   },
   openGraph: {
-    title: "Security Careers",
+    title: "Security Careers | Crown Security Agencies",
     description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
     url: "/careers",
     images: [
@@ -28,7 +28,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Security Careers",
+    title: "Security Careers | Crown Security Agencies",
     description: "Build your career with Crown Security Agencies. Explore opportunities for security professionals and grow with a trusted security company.",
     images: ["/images/home/home-hero-bg.webp"],
   },
