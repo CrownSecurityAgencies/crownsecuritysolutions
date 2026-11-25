@@ -53,7 +53,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    quote: "We are always keen to add our associates to our 'PREFERRED VENDORS LIST' but I must say very few make it, Crown did.",
+    quote: "We are always keen to add our associates to our 'PREFERRED VENDORS LIST' but I must say very few make it, Crown Security Agencies did.",
     companyLogo: "https://placehold.co/400x400.webp",
     companyName: "MAHINDRA",
     personName: "Mr. Vijay Pawar",
