@@ -26,7 +26,7 @@ export const metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Security Services in India",
+    title: "Security Services in India | Crown Security Agencies",
     description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
     url: "/",
     images: [
@@ -39,7 +39,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Security Services in India",
+    title: "Security Services in India | Crown Security Agencies",
     description: "Crown Security Agencies provides reliable corporate, industrial, residential, and event security services with trained professionals and 24/7 support.",
     images: ["/images/home/home-hero-guards.webp"],
   },
