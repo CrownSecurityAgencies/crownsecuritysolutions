@@ -240,7 +240,7 @@ export const services: ServiceData[] = [
       },
     ],
   },
-  // Escort Services
+  // Security Escort Services
   {
     slug: "security-escort-services",
     label: "SERVICE 02",
@@ -534,7 +534,7 @@ export const services: ServiceData[] = [
         id: "vip_handling",
         title: "VIP Handling & Discreet Assistance",
         description:
-          "Specially trained officers provide discreet escort services, support confidential movements, and maintain a composed, professional presence for VIP guests.",
+          "Specially trained officers provide discreet Security Escort Services, support confidential movements, and maintain a composed, professional presence for VIP guests.",
         iconColor: "#EF4444",
       },
     ],
