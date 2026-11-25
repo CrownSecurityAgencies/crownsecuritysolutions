@@ -13,7 +13,7 @@ const ContactUs: React.FC = () => {
                         <div className={styles.leftColumn}>
                             <div className={styles.header}>
                                 <div className={styles.eyebrow}>
-                                    <span className={styles.label}>Contact Us</span>
+                                    <h1 className={styles.label}>Contact Us</h1>
                                     <h2 className={styles.title}>
                                         Contact a <span className={styles.highlight}> Trusted</span> Security Services Provider in India for Customized Protection Solutions.
                                     </h2>
@@ -133,4 +133,3 @@ const ContactUs: React.FC = () => {
 };
 
 export default ContactUs;
-
