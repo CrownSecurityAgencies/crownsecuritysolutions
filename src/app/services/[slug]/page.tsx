@@ -4,6 +4,7 @@ import InfoSplitSection from '@/components/Sections/InfoSplitSection/InfoSplitSe
 import ServiceSection from '@/components/Sections/ServiceSection/ServiceSection';
 import CoreValuesSection from '@/components/Sections/CoreValuesSection/CoreValuesSection';
 import { getServiceBySlug, getAllServiceSlugs } from '@/data/services';
+import ServiceJsonLd from '@/components/JsonLd/ServiceJsonLd';
 import StatsValueSection from '@/components/Sections/StatsValueSection/StatsValueSection';
 import BrandsSlider from '@/components/Sections/BrandsSlider/BrandsSlider';
 import Testimonials from '@/components/Sections/Testimonials/Testimonials';
@@ -144,6 +145,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
   return (
     <>
+      <ServiceJsonLd name={service.title} description={service.description} url={metadata.canonical} />
       <HeroSection {...service.heroData} />
       <div className="bodySectionLayout">
         <InfoSplitSection content={service.infoSplitData} showImage={false} />
