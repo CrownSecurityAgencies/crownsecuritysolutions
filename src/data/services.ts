@@ -242,11 +242,11 @@ export const services: ServiceData[] = [
   },
   // Escort Services
   {
-    slug: "escort-services",
+    slug: "security-escort-services",
     label: "SERVICE 02",
-    title: "Escort Services",
+    title: "Security Escort Services",
     description:
-      "Crown provides professional escort services for secure transportation of valuables, personnel, and high-risk cargo. Our trained escorts ensure safe transit with real-time monitoring and emergency response capabilities.",
+      "Crown provides professional Security Escort Services for secure transportation of valuables, personnel, and high-risk cargo. Our trained escorts ensure safe transit with real-time monitoring and emergency response capabilities.",
     targetSegment: "Banks, Financial Institutions, and High-Value Transport.",
     scopeOfWork: [
       "Personal security escort for VIPs.",
@@ -263,9 +263,9 @@ export const services: ServiceData[] = [
         alt: "Security Convoy Services",
       },
       content: {
-        title: "Escort Services",
+        title: "Security Escort Services",
         description:
-          "Safe movement of people and high value assets requires meticulous planning, trained personnel, and total accountability. Crown Security Agencies provides professional Escort Services designed to protect individuals, sensitive documents, valuables, and consignments throughout their journey with complete reliability and discipline.\n\nWith nearly three decades of operational experience across India, CSA delivers an escort framework supported by trained officers, centralized monitoring, and route based risk assessments that ensure protection at every step.",
+          "Safe movement of people and high value assets requires meticulous planning, trained personnel, and total accountability. Crown Security Agencies provides professional Security Escort Services designed to protect individuals, sensitive documents, valuables, and consignments throughout their journey with complete reliability and discipline.\n\nWith nearly three decades of operational experience across India, CSA delivers an escort framework supported by trained officers, centralized monitoring, and route based risk assessments that ensure protection at every step.",
       },
       overlay: {
         enabled: true,
@@ -277,7 +277,7 @@ export const services: ServiceData[] = [
     },
     infoSplitData: {
       label: "",
-      title: "Why Escort Services Are Critical?",
+      title: "Why Security Escort Services Are Critical?",
       subtitle: "",
       imageSrc: "",
       imageAlt: "",
@@ -329,7 +329,7 @@ export const services: ServiceData[] = [
         iconColor: "#EF4444",
       },
     ],
-    coreValuesTitle: "Our Expertise in Escort Services",
+    coreValuesTitle: "Our Expertise in Security Escort Services",
     coreValuesSubtitle:
       "Every escort assignment is handled with confidentiality, precision, and strict adherence to protocol. CSA provides specialized support for the secure movement of cash, confidential documents, sensitive cargo, or high profile personnel.",
     serviceSectionData: [
@@ -338,7 +338,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Why Clients Trust Crown Security Agencies?",
         description:
-          "Businesses choose CSA for escort services because they value discipline, confidentiality, and dependable execution. Our reputation is built on:",
+          "Businesses choose CSA for Security Escort Services because they value discipline, confidentiality, and dependable execution. Our reputation is built on:",
         scopeOfWork: [
           "Skilled escort officers trained in risk awareness",
           "Transparent documentation and verification procedures",
@@ -434,7 +434,7 @@ export const services: ServiceData[] = [
         targetSegment: "",
         title: "Trusted by Leading Corporates Across India",
         description:
-          "CSA has supported several banks, logistics firms, corporate groups, and high profile individuals with safe and reliable escort services. Our operational discipline and technology integration allow us to deliver consistent quality across multiple states.",
+          "CSA has supported several banks, logistics firms, corporate groups, and high profile individuals with safe and reliable Security Escort Services. Our operational discipline and technology integration allow us to deliver consistent quality across multiple states.",
         scopeOfWork: [],
         image: "/images/services/Security Convoy Services/Convoy_2.webp",
         buttons: [
