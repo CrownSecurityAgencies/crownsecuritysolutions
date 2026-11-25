@@ -10,14 +10,14 @@ import styles from './page.module.scss';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "Our Security Process | How Crown Security Agencies Works",
+  title: "Our Security Process",
   description: "Discover Crown Security Agencies' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
   keywords: ["security process", "security services", "risk assessment", "security deployment", "security compliance", "professional security"],
   alternates: {
     canonical: "/our-process",
   },
   openGraph: {
-    title: "Our Security Process | How Crown Security Agencies Works",
+    title: "Our Security Process",
     description: "Discover Crown Security Agencies' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
     url: "/our-process",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Our Security Process | How Crown Security Agencies Works",
+    title: "Our Security Process",
     description: "Discover Crown Security Agencies' structured security process, from risk assessment to deployment, ensuring safety and compliance.",
     images: ["/images/our-process-hero-bg.webp"],
   },
