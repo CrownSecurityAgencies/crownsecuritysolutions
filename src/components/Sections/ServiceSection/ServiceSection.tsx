@@ -20,7 +20,7 @@ const ServiceSection: React.FC<ServiceSectionProps> = ({ variant = 'left', servi
   const currentService = service || {
     label: "SERVICE 01",
     title: "Corporate Park Security",
-    description: "Crown's Corporate Park Security solutions are designed to protect large office complexes while maintaining a professional and welcoming environment.",
+    description: "Crown Security Agencies' Corporate Park Security solutions are designed to protect large office complexes while maintaining a professional and welcoming environment.",
     targetSegment: "MNCs, IT Parks, Business Parks, and Corporate Offices.",
     scopeOfWork: ["Visitor verification and employee ID checks."],
     image: "https://placehold.co/600x600.webp",
