@@ -5,14 +5,14 @@ import styles from '@/styles/legal-page.module.scss';
 export const revalidate = 86400;
 
 export const metadata = {
-  title: "Terms and Conditions | Crown Security Agencies",
+  title: "Terms & Conditions",
   description: "Read the terms and conditions governing the use of Crown Security Agencies' website, services, and legal policies.",
   keywords: ["terms and conditions", "legal policies", "security services terms", "website terms", "service agreements"],
   alternates: {
     canonical: "/terms-and-conditions",
   },
   openGraph: {
-    title: "Terms and Conditions | Crown Security Agencies",
+    title: "Terms & Conditions",
     description: "Read the terms and conditions governing the use of Crown Security Agencies' website, services, and legal policies.",
     url: "/terms-and-conditions",
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Terms and Conditions | Crown Security Agencies",
+    title: "Terms & Conditions",
     description: "Read the terms and conditions governing the use of Crown Security Agencies' website, services, and legal policies.",
     images: ["/images/home/home-hero-bg.webp"],
   },
