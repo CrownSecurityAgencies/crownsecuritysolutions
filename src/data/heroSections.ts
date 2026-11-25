@@ -10,7 +10,7 @@ export const homepageHero: HeroSectionProps = {
   content: {
     title: "Your Security. Our Priority.",
     description:
-      "For almost 30 years now, Crown Security Agencies (CSA) has been India’s trusted security partner, combining disciplined manpower, ethical governance, and technology-driven systems to safeguard people, property, and peace of mind across 7 states.",
+      "For almost 30 years now, Crown Security Agencies has been India’s trusted security partner, combining disciplined manpower, ethical governance, and technology-driven systems to safeguard people, property, and peace of mind across 7 states.",
     buttons: [
       {
         text: "LEARN HOW",
@@ -39,7 +39,7 @@ export const aboutpageHero: HeroSectionProps = {
     title:
       "Trusted Security Services Company in India for Commercial, Residential & Industrial Protection",
     description:
-      "Crown Security is a trusted security services company in India, delivering professional protection solutions for commercial, residential, and industrial clients. With a strong presence across key Indian cities, we provide reliable, compliant, and high-quality security services you can depend on.",
+      "Crown Security Agencies is a trusted security services company in India, delivering professional protection solutions for commercial, residential, and industrial clients. With a strong presence across key Indian cities, we provide reliable, compliant, and high-quality security services you can depend on.",
   },
   overlay: {
     enabled: true,
@@ -102,7 +102,7 @@ export const servicespageHero: HeroSectionProps = {
     title:
       "Comprehensive Security Services in India for Corporates, Residences & Industrial Facilities",
     description:
-      "Crown Security provides comprehensive security services in India, including manned guarding, corporate security, residential security, industrial security, and asset protection. Our integrated security solutions ensure safety, compliance, and peace of mind.",
+      "Crown Security Agencies provides comprehensive security services in India, including manned guarding, corporate security, residential security, industrial security, and asset protection. Our integrated security solutions ensure safety, compliance, and peace of mind.",
   },
   overlay: {
     enabled: true,
@@ -123,7 +123,7 @@ export const careerspageHero: HeroSectionProps = {
     title:
       "Security Guard & Management Careers with a Growing Security Services Company in India",
     description:
-      "Build a secure future with one of India’s growing security service providers. Crown Security offers long-term career opportunities, professional training, and structured growth in the Indian private security industry.",
+      "Build a secure future with one of India’s growing security service providers. Crown Security Agencies offers long-term career opportunities, professional training, and structured growth in the Indian private security industry.",
   },
   overlay: {
     enabled: true,
