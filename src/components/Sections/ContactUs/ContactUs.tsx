@@ -102,9 +102,9 @@ const ContactUs: React.FC = () => {
                                 </div>
                                 <div className={styles.serviceDivider} />
                                 <div className={styles.serviceBlock}>
-                                    <h3 className={styles.serviceTitle}>Escort Services</h3>
+                                    <h3 className={styles.serviceTitle}>Security Escort Services</h3>
                                     <p className={styles.serviceText}>
-                                        Our Escort Services extend PAN-India, supported by licensed officers and advanced route coordination.
+                                        Our Security Escort Services extend PAN-India, supported by licensed officers and advanced route coordination.
                                     </p>
                                     <p className={styles.serviceText}>No matter the destination, we ensure the same professionalism, reliability, and discretion Crown is known for.</p>
                                 </div>
