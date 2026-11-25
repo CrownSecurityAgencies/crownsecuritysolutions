@@ -12,7 +12,7 @@ export const metadata = {
     canonical: "/terms-and-conditions",
   },
   openGraph: {
-    title: "Terms & Conditions",
+    title: "Terms & Conditions | Crown Security Agencies",
     description: "Read the terms and conditions governing the use of Crown Security Agencies' website, services, and legal policies.",
     url: "/terms-and-conditions",
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    title: "Terms & Conditions",
+    title: "Terms & Conditions | Crown Security Agencies",
     description: "Read the terms and conditions governing the use of Crown Security Agencies' website, services, and legal policies.",
     images: ["/images/home/home-hero-bg.webp"],
   },
