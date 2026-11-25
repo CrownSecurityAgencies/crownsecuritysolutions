@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 export const JsonLd: React.FC = () => {
   const jsonLdData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://crownsecuritysolutions.com/#business",
     "name": "Crown Security Agencies",
     "image": "https://crownsecuritysolutions.com/images/css_logo.svg",
-    "@id": "https://crownsecuritysolutions.com",
-    "url": "https://crownsecuritysolutions.com",
+    "url": "https://crownsecuritysolutions.com/",
     "telephone": "+91-8108107824",
     "email": "info@crownsecuritysolutions.com",
     "address": {
@@ -18,6 +18,36 @@ export const JsonLd: React.FC = () => {
       "postalCode": "400601",
       "addressCountry": "IN"
     },
+    "department": [
+      {
+        "@type": "LocalBusiness",
+        "name": "Crown Security Agencies - Head Office",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Elite's Hajra Mansion, 02, off Doctor Ansari Road, 2nd, Rabodi, Thane West",
+          "addressLocality": "Thane",
+          "addressRegion": "Maharashtra",
+          "postalCode": "400601",
+          "addressCountry": "IN"
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "name": "Crown Security Agencies - Corporate Office",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Office 11, P3 Level, Azziano, Rustomjee Urbania, Majiwada",
+          "addressLocality": "Thane",
+          "addressRegion": "Maharashtra",
+          "postalCode": "400601",
+          "addressCountry": "IN"
+        }
+      }
+    ],
+    "areaServed": [
+      "Delhi", "Haryana", "Gujarat", "Maharashtra",
+      "Karnataka", "Telangana", "Tamil Nadu"
+    ].map((name) => ({ "@type": "AdministrativeArea", "name": name })),
     "sameAs": [
       "https://www.linkedin.com/company/crownsecurity-agencies/",
       "https://www.instagram.com/crownsecurityagencies",
@@ -28,9 +58,7 @@ export const JsonLd: React.FC = () => {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify(jsonLdData)
-      }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
     />
   );
 };
